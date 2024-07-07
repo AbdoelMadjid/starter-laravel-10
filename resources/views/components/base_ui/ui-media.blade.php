@@ -45,7 +45,8 @@
                     <div class="live-preview">
                         <div class="d-flex align-items-start text-muted mb-4">
                             <div class="flex-shrink-0 me-3">
-                                <img src="assets/images/users/avatar-2.jpg" class="avatar-sm rounded" alt="...">
+                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" class="avatar-sm rounded"
+                                    alt="...">
                             </div>
 
                             <div class="flex-grow-1">
@@ -62,13 +63,15 @@
                                 adjust it as needed.
                             </div>
                             <div class="flex-shrink-0 ms-3">
-                                <img src="assets/images/users/avatar-3.jpg" class="avatar-sm rounded" alt="...">
+                                <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" class="avatar-sm rounded"
+                                    alt="...">
                             </div>
                         </div>
 
                         <div class="d-flex align-items-start text-muted">
                             <div class="flex-shrink-0 me-3">
-                                <img src="assets/images/users/avatar-2.jpg" class="avatar-sm rounded" alt="...">
+                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" class="avatar-sm rounded"
+                                    alt="...">
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-14">Media heading</h5>
@@ -135,7 +138,8 @@ This is some content from a media component. You can replace this with any conte
                     <div class="live-preview">
                         <div class="d-flex align-items-start text-muted mb-4">
                             <div class="flex-shrink-0 me-3">
-                                <img src="assets/images/users/avatar-2.jpg" class="avatar-sm rounded" alt="...">
+                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" class="avatar-sm rounded"
+                                    alt="...">
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-14">Media heading</h5>
@@ -143,8 +147,8 @@ This is some content from a media component. You can replace this with any conte
                                 adjust it as needed.
                                 <div class="d-flex align-items-start text-muted mt-3">
                                     <div class="flex-shrink-0 me-3">
-                                        <img src="assets/images/users/avatar-3.jpg" class="avatar-sm rounded"
-                                            alt="...">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                            class="avatar-sm rounded" alt="...">
                                     </div>
                                     <div class="flex-grow-1">
                                         <h5 class="fs-14">Media heading</h5>
@@ -157,7 +161,8 @@ This is some content from a media component. You can replace this with any conte
 
                         <div class="d-flex align-items-start text-muted">
                             <div class="flex-shrink-0 me-3">
-                                <img src="assets/images/users/avatar-4.jpg" class="avatar-sm rounded" alt="...">
+                                <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" class="avatar-sm rounded"
+                                    alt="...">
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-14">Media heading</h5>
@@ -227,7 +232,8 @@ This is some content from a media component. You can replace this with any conte
                     <div class="live-preview">
                         <div class="d-flex align-items-start text-muted mb-4">
                             <div class="flex-shrink-0 me-3">
-                                <img src="assets/images/users/avatar-2.jpg" class="avatar-sm rounded" alt="...">
+                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" class="avatar-sm rounded"
+                                    alt="...">
                             </div>
 
                             <div class="flex-grow-1">
@@ -244,7 +250,8 @@ This is some content from a media component. You can replace this with any conte
 
                         <div class="d-flex align-items-center text-muted mb-4">
                             <div class="flex-shrink-0 me-3">
-                                <img src="assets/images/users/avatar-6.jpg" class="avatar-sm rounded" alt="...">
+                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" class="avatar-sm rounded"
+                                    alt="...">
                             </div>
 
                             <div class="flex-grow-1">
@@ -261,7 +268,8 @@ This is some content from a media component. You can replace this with any conte
 
                         <div class="d-flex align-items-end text-muted">
                             <div class="flex-shrink-0 me-3">
-                                <img src="assets/images/users/avatar-8.jpg" class="avatar-sm rounded" alt="...">
+                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" class="avatar-sm rounded"
+                                    alt="...">
                             </div>
 
                             <div class="flex-grow-1">

@@ -375,7 +375,7 @@
 &lt;th scope=&quot;col&quot;&gt;Date&lt;/th&gt;
 &lt;th scope=&quot;col&quot;&gt;Total&lt;/th&gt;
 &lt;th scope=&quot;col&quot;&gt;Status&lt;/th&gt;
-&lt;th scope=&quot;col&quot;&gt;Action&lt;/th&gt;   
+&lt;th scope=&quot;col&quot;&gt;Action&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -1572,7 +1572,7 @@
     &lt;a href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
         &lt;i class=&quot;ri-more-2-fill&quot;&gt;&lt;/i&gt;
     &lt;/a&gt;
-  
+
     &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;View&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
@@ -1592,7 +1592,7 @@
     &lt;a href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
         &lt;i class=&quot;ri-more-2-fill&quot;&gt;&lt;/i&gt;
     &lt;/a&gt;
-  
+
     &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;View&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
@@ -1612,7 +1612,7 @@
     &lt;a href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
         &lt;i class=&quot;ri-more-2-fill&quot;&gt;&lt;/i&gt;
     &lt;/a&gt;
-  
+
     &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;View&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
@@ -1632,7 +1632,7 @@
     &lt;a href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
         &lt;i class=&quot;ri-more-2-fill&quot;&gt;&lt;/i&gt;
     &lt;/a&gt;
-  
+
     &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;View&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
@@ -1793,7 +1793,7 @@
     &lt;a href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
         &lt;i class=&quot;ri-more-2-fill&quot;&gt;&lt;/i&gt;
     &lt;/a&gt;
-  
+
     &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;View&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
@@ -1813,7 +1813,7 @@
     &lt;a href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
         &lt;i class=&quot;ri-more-2-fill&quot;&gt;&lt;/i&gt;
     &lt;/a&gt;
-  
+
     &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;View&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
@@ -1833,7 +1833,7 @@
     &lt;a href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
         &lt;i class=&quot;ri-more-2-fill&quot;&gt;&lt;/i&gt;
     &lt;/a&gt;
-  
+
     &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;View&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
@@ -1853,7 +1853,7 @@
     &lt;a href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
         &lt;i class=&quot;ri-more-2-fill&quot;&gt;&lt;/i&gt;
     &lt;/a&gt;
-  
+
     &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;View&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Edit&lt;/a&gt;&lt;/li&gt;
@@ -2253,7 +2253,7 @@
 &lt;/div&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-success&quot;&gt;Confirmed&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;   
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Jassica Welsh&lt;/td&gt;
 &lt;td&gt;3d Animation&lt;/td&gt;
@@ -2455,7 +2455,7 @@
 &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
 &lt;th scope=&quot;col&quot;&gt;Job Title&lt;/th&gt;
 &lt;th scope=&quot;col&quot;&gt;Date&lt;/th&gt;
-&lt;th scope=&quot;col&quot;&gt;Payment&lt;/th&gt;  
+&lt;th scope=&quot;col&quot;&gt;Payment&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -2984,7 +2984,7 @@
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-3.jpg" alt=""
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                                         class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -3010,7 +3010,7 @@
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-4.jpg" alt=""
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
                                                         class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -3036,7 +3036,7 @@
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-5.jpg" alt=""
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-5.jpg" alt=""
                                                         class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -3062,7 +3062,7 @@
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-6.jpg" alt=""
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
                                                         class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -3088,7 +3088,7 @@
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-1.jpg" alt=""
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
                                                         class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">

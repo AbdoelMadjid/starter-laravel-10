@@ -471,7 +471,8 @@
                         </div>
                     </div>
                     <div class="mb-4 pb-2">
-                        <img src="assets/images/companies/img-3.png" alt="" class="avatar-sm">
+                        <img src="{{ asset('') }}assets/images/companies/img-3.png" alt=""
+                            class="avatar-sm">
                     </div>
                     <a href="#!">
                         <h6 class="fs-15 fw-semibold">Marketing Director <span class="text-muted fs-13">(2-4 Yrs
@@ -496,7 +497,8 @@
                         </div>
                     </div>
                     <div class="mb-4 pb-2">
-                        <img src="assets/images/companies/img-4.png" alt="" class="avatar-sm">
+                        <img src="{{ asset('') }}assets/images/companies/img-4.png" alt=""
+                            class="avatar-sm">
                     </div>
                     <a href="#!">
                         <h6 class="fs-15 fw-semibold">Sr. Web Designer <span class="text-muted fs-13">(2+ Yrs Exp.)</span>
@@ -521,7 +523,8 @@
                         </div>
                     </div>
                     <div class="mb-4 pb-2">
-                        <img src="assets/images/companies/img-6.png" alt="" class="avatar-sm">
+                        <img src="{{ asset('') }}assets/images/companies/img-6.png" alt=""
+                            class="avatar-sm">
                     </div>
                     <a href="#!">
                         <h6 class="fs-15 fw-semibold">Sr. Web Designer <span class="text-muted fs-13">(2+ Yrs Exp.)</span>
@@ -546,7 +549,8 @@
                         </div>
                     </div>
                     <div class="mb-4 pb-2">
-                        <img src="assets/images/companies/img-8.png" alt="" class="avatar-sm">
+                        <img src="{{ asset('') }}assets/images/companies/img-8.png" alt=""
+                            class="avatar-sm">
                     </div>
                     <a href="#!">
                         <h6 class="fs-15 fw-semibold">Sr. Web Designer <span class="text-muted fs-13">(2+ Yrs Exp.)</span>
@@ -593,7 +597,8 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="px-3">
-                                <img src="assets/images/user-illustarator-2.png" class="img-fluid" alt="">
+                                <img src="{{ asset('') }}assets/images/user-illustarator-2.png" class="img-fluid"
+                                    alt="">
                             </div>
                         </div>
                     </div>
@@ -627,7 +632,8 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="px-3">
-                                <img src="assets/images/user-illustarator-1.png" class="img-fluid" alt="">
+                                <img src="{{ asset('') }}assets/images/user-illustarator-1.png" class="img-fluid"
+                                    alt="">
                             </div>
                         </div>
                     </div>
@@ -788,24 +794,24 @@
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Stine Nielsen">
-                                                <img src="assets/images/users/avatar-1.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Jansh Brown">
-                                                <img src="assets/images/users/avatar-2.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Dan Gibson">
-                                                <img src="assets/images/users/avatar-3.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
@@ -843,32 +849,32 @@
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Frida Bang">
-                                                <img src="assets/images/users/avatar-4.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Malou Silva">
-                                                <img src="assets/images/users/avatar-5.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-5.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Simon Schmidt">
-                                                <img src="assets/images/users/avatar-6.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Tosh Jessen">
-                                                <img src="assets/images/users/avatar-7.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
@@ -906,24 +912,24 @@
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Nina Schmidt">
-                                                <img src="assets/images/users/avatar-8.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Stine Nielsen">
-                                                <img src="assets/images/users/avatar-1.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Jansh Brown">
-                                                <img src="assets/images/users/avatar-2.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
@@ -961,24 +967,24 @@
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Stine Nielsen">
-                                                <img src="assets/images/users/avatar-1.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Jansh Brown">
-                                                <img src="assets/images/users/avatar-5.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-5.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
                                             <a href="javascript: void(0);" class="d-inline-block"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Dan Gibson">
-                                                <img src="assets/images/users/avatar-2.jpg" alt=""
-                                                    class="rounded-circle avatar-xxs">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="rounded-circle avatar-xxs">
                                             </a>
                                         </div>
                                         <div class="avatar-group-item">
@@ -1190,18 +1196,18 @@
                                             <div class="d-inline-flex gap-2 border border-dashed p-2 mb-2 w-75">
                                                 <a href="apps-ecommerce-product-details.html"
                                                     class="bg-light rounded p-1">
-                                                    <img src="assets/images/products/img-8.png" alt=""
-                                                        class="img-fluid d-block" />
+                                                    <img src="{{ asset('') }}assets/images/products/img-8.png"
+                                                        alt="" class="img-fluid d-block" />
                                                 </a>
                                                 <a href="apps-ecommerce-product-details.html"
                                                     class="bg-light rounded p-1">
-                                                    <img src="assets/images/products/img-2.png" alt=""
-                                                        class="img-fluid d-block" />
+                                                    <img src="{{ asset('') }}assets/images/products/img-2.png"
+                                                        alt="" class="img-fluid d-block" />
                                                 </a>
                                                 <a href="apps-ecommerce-product-details.html"
                                                     class="bg-light rounded p-1">
-                                                    <img src="assets/images/products/img-10.png" alt=""
-                                                        class="img-fluid d-block" />
+                                                    <img src="{{ asset('') }}assets/images/products/img-10.png"
+                                                        alt="" class="img-fluid d-block" />
                                                 </a>
                                             </div>
                                             <p class="mb-0 text-muted"><small>9:47 PM Yesterday</small>
@@ -1210,7 +1216,7 @@
                                     </div>
                                     <div class="acitivity-item py-3 d-flex">
                                         <div class="flex-shrink-0">
-                                            <img src="assets/images/users/avatar-2.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
                                                 class="avatar-xs rounded-circle acitivity-avatar">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
@@ -1287,7 +1293,7 @@
                                     </div>
                                     <div class="acitivity-item d-flex">
                                         <div class="flex-shrink-0">
-                                            <img src="assets/images/users/avatar-3.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                                 class="avatar-xs rounded-circle acitivity-avatar" />
                                         </div>
                                         <div class="flex-grow-1 ms-3">
@@ -1593,8 +1599,8 @@
                             <div class="d-flex">
                                 <div class="flex-shrink-0 avatar-xs">
                                     <span class="avatar-title bg-light p-1 rounded-circle">
-                                        <img src="assets/images/svg/crypto-icons/btc.svg" class="img-fluid"
-                                            alt="">
+                                        <img src="{{ asset('') }}assets/images/svg/crypto-icons/btc.svg"
+                                            class="img-fluid" alt="">
                                     </span>
                                 </div>
                                 <div class="flex-grow-1 ms-2">
@@ -1613,8 +1619,8 @@
                             <div class="d-flex">
                                 <div class="flex-shrink-0 avatar-xs">
                                     <span class="avatar-title bg-light p-1 rounded-circle">
-                                        <img src="assets/images/svg/crypto-icons/eth.svg" class="img-fluid"
-                                            alt="">
+                                        <img src="{{ asset('') }}assets/images/svg/crypto-icons/eth.svg"
+                                            class="img-fluid" alt="">
                                     </span>
                                 </div>
                                 <div class="flex-grow-1 ms-2">
@@ -1633,8 +1639,8 @@
                             <div class="d-flex">
                                 <div class="flex-shrink-0 avatar-xs">
                                     <span class="avatar-title bg-light p-1 rounded-circle">
-                                        <img src="assets/images/svg/crypto-icons/ltc.svg" class="img-fluid"
-                                            alt="">
+                                        <img src="{{ asset('') }}assets/images/svg/crypto-icons/ltc.svg"
+                                            class="img-fluid" alt="">
                                     </span>
                                 </div>
                                 <div class="flex-grow-1 ms-2">
@@ -1653,8 +1659,8 @@
                             <div class="d-flex">
                                 <div class="flex-shrink-0 avatar-xs">
                                     <span class="avatar-title bg-light p-1 rounded-circle">
-                                        <img src="assets/images/svg/crypto-icons/dash.svg" class="img-fluid"
-                                            alt="">
+                                        <img src="{{ asset('') }}assets/images/svg/crypto-icons/dash.svg"
+                                            class="img-fluid" alt="">
                                     </span>
                                 </div>
                                 <div class="flex-grow-1 ms-2">
@@ -1786,7 +1792,7 @@
                             <div class="swiper-slide" style="max-width: 200px;">
                                 <div>
                                     <div class="bg-info-subtle rounded">
-                                        <img src="assets/images/products/img-3.png" alt=""
+                                        <img src="{{ asset('') }}assets/images/products/img-3.png" alt=""
                                             style="max-height: 210px;max-width: auto;" />
                                     </div>
                                     <div class="pt-3">
@@ -1801,7 +1807,7 @@
                             <div class="swiper-slide" style="max-width: 200px;">
                                 <div>
                                     <div class="bg-success-subtle rounded">
-                                        <img src="assets/images/products/img-4.png" alt=""
+                                        <img src="{{ asset('') }}assets/images/products/img-4.png" alt=""
                                             style="max-height: 210px;max-width: auto;" />
                                     </div>
                                     <div class="pt-3">
@@ -1816,7 +1822,7 @@
                             <div class="swiper-slide" style="max-width: 200px;">
                                 <div>
                                     <div class="bg-warning-subtle rounded">
-                                        <img src="assets/images/products/img-5.png" alt=""
+                                        <img src="{{ asset('') }}assets/images/products/img-5.png" alt=""
                                             style="max-height: 210px;max-width: auto;" />
                                     </div>
                                     <div class="pt-3">
@@ -1830,7 +1836,7 @@
                             <div class="swiper-slide" style="max-width: 200px;">
                                 <div>
                                     <div class="bg-secondary-subtle rounded">
-                                        <img src="assets/images/products/img-6.png" alt=""
+                                        <img src="{{ asset('') }}assets/images/products/img-6.png" alt=""
                                             style="max-height: 210px;max-width: auto;" />
                                     </div>
                                     <div class="pt-3">
@@ -1853,7 +1859,8 @@
                     <div class="d-flex align-items-center mb-3">
                         <div class="avatar-sm me-3 flex-shrink-0">
                             <div class="avatar-title bg-info-subtle rounded">
-                                <img src="assets/images/products/img-6.png" alt="" class="avatar-xs">
+                                <img src="{{ asset('') }}assets/images/products/img-6.png" alt=""
+                                    class="avatar-xs">
                             </div>
                         </div>
                         <div class="flex-grow-1">
@@ -2056,7 +2063,8 @@
                     <div class="d-flex align-items-center mb-3">
                         <div class="avatar-sm me-3 flex-shrink-0">
                             <div class="avatar-title bg-danger-subtle rounded">
-                                <img src="assets/images/products/img-8.png" alt="" class="avatar-xs">
+                                <img src="{{ asset('') }}assets/images/products/img-8.png" alt=""
+                                    class="avatar-xs">
                             </div>
                         </div>
                         <div class="flex-grow-1">
@@ -2177,8 +2185,8 @@
                                         <a href="javascript:void(0);" class="d-flex align-items-center py-2">
                                             <div class="flex-shrink-0 me-2">
                                                 <div class="avatar-xs">
-                                                    <img src="assets/images/users/avatar-1.jpg" alt=""
-                                                        class="img-fluid rounded-circle candidate-img">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                        alt="" class="img-fluid rounded-circle candidate-img">
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1">
@@ -2193,8 +2201,8 @@
                                         <a href="javascript:void(0);" class="d-flex align-items-center py-2">
                                             <div class="flex-shrink-0 me-2">
                                                 <div class="avatar-xs">
-                                                    <img src="assets/images/users/avatar-2.jpg" alt=""
-                                                        class="img-fluid rounded-circle candidate-img">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                        alt="" class="img-fluid rounded-circle candidate-img">
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1">
@@ -2209,8 +2217,8 @@
                                         <a href="javascript:void(0);" class="d-flex align-items-center py-2">
                                             <div class="flex-shrink-0 me-2">
                                                 <div class="avatar-xs">
-                                                    <img src="assets/images/users/avatar-3.jpg" alt=""
-                                                        class="img-fluid rounded-circle candidate-img">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                        alt="" class="img-fluid rounded-circle candidate-img">
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1">
@@ -2224,8 +2232,8 @@
                                         <a href="javascript:void(0);" class="d-flex align-items-center py-2">
                                             <div class="flex-shrink-0 me-2">
                                                 <div class="avatar-xs">
-                                                    <img src="assets/images/users/avatar-4.jpg" alt=""
-                                                        class="img-fluid rounded-circle candidate-img">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                        alt="" class="img-fluid rounded-circle candidate-img">
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1">
@@ -2240,8 +2248,8 @@
                                         <a href="javascript:void(0);" class="d-flex align-items-center py-2">
                                             <div class="flex-shrink-0 me-2">
                                                 <div class="avatar-xs">
-                                                    <img src="assets/images/users/avatar-5.jpg" alt=""
-                                                        class="img-fluid rounded-circle candidate-img">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-5.jpg"
+                                                        alt="" class="img-fluid rounded-circle candidate-img">
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1">
@@ -2259,8 +2267,8 @@
                     <div class="col-lg-6">
                         <div class="card-body text-center">
                             <div class="avatar-md mb-3 mx-auto">
-                                <img src="assets/images/users/avatar-1.jpg" alt="" id="candidate-img"
-                                    class="img-thumbnail rounded-circle shadow-none">
+                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
+                                    id="candidate-img" class="img-thumbnail rounded-circle shadow-none">
                             </div>
 
                             <h5 id="candidate-name" class="mb-0">Anna Adame</h5>

@@ -46,16 +46,16 @@
                             data-bs-interval="3000">
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item carousel-item-next carousel-item-start">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-1.jpg"
-                                        alt="First slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-1.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-2.jpg"
-                                        alt="Second slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-2.jpg" alt="Second slide">
                                 </div>
                                 <div class="carousel-item active carousel-item-start">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-3.jpg"
-                                        alt="Third slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-3.jpg" alt="Third slide">
                                 </div>
                             </div>
                         </div>
@@ -99,16 +99,16 @@
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-4.jpg"
-                                        alt="First slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-4.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-5.jpg"
-                                        alt="Second slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-5.jpg" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-6.jpg"
-                                        alt="Third slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-6.jpg" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
@@ -183,16 +183,16 @@
                             </div>
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-3.jpg"
-                                        alt="First slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-3.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-2.jpg"
-                                        alt="Second slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-2.jpg" alt="Second slide">
                                 </div>
                                 <div class="carousel-item active">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-1.jpg"
-                                        alt="Third slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-1.jpg" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -260,7 +260,7 @@
                         <div id="carouselExampleCaption" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item">
-                                    <img src="assets/images/small/img-7.jpg" alt=""
+                                    <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt=""
                                         class="d-block img-fluid mx-auto">
                                     <div class="carousel-caption text-white-50">
                                         <h5 class="text-white">Sunrise above a beach</h5>
@@ -269,7 +269,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item active">
-                                    <img src="assets/images/small/img-2.jpg" alt=""
+                                    <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
                                         class="d-block img-fluid mx-auto">
                                     <div class="carousel-caption text-white-50">
                                         <h5 class="text-white">Working from home little spot</h5>
@@ -278,7 +278,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/small/img-9.jpg" alt=""
+                                    <img src="{{ asset('') }}assets/images/small/img-9.jpg" alt=""
                                         class="d-block img-fluid mx-auto">
                                     <div class="carousel-caption text-white-50">
                                         <h5 class="text-white">Dramatic clouds at the Golden Gate Bridge</h5>
@@ -372,16 +372,16 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-1.jpg"
-                                        alt="First slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-1.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-2.jpg"
-                                        alt="Second slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-2.jpg" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block img-fluid mx-auto" src="assets/images/small/img-3.jpg"
-                                        alt="Third slide">
+                                    <img class="d-block img-fluid mx-auto"
+                                        src="{{ asset('') }}assets/images/small/img-3.jpg" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleFade" role="button"
@@ -451,13 +451,16 @@
                         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="assets//images/small/img-12.jpg" class="d-block w-100" alt="First slide" />
+                                    <img src="{{ asset('') }}assets//images/small/img-12.jpg" class="d-block w-100"
+                                        alt="First slide" />
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="assets/images/small/img-11.jpg" class="d-block w-100" alt="two slide" />
+                                    <img src="{{ asset('') }}assets/images/small/img-11.jpg" class="d-block w-100"
+                                        alt="two slide" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/small/img-10.jpg" class="d-block w-100" alt="There slide" />
+                                    <img src="{{ asset('') }}assets/images/small/img-10.jpg" class="d-block w-100"
+                                        alt="There slide" />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
@@ -530,13 +533,16 @@
                             data-bs-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/images/small/img-9.jpg" class="d-block w-100" alt="One Slide" />
+                                    <img src="{{ asset('') }}assets/images/small/img-9.jpg" class="d-block w-100"
+                                        alt="One Slide" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/small/img-8.jpg" class="d-block w-100" alt="Two Slide" />
+                                    <img src="{{ asset('') }}assets/images/small/img-8.jpg" class="d-block w-100"
+                                        alt="Two Slide" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/small/img-7.jpg" class="d-block w-100" alt="Three Slide" />
+                                    <img src="{{ asset('') }}assets/images/small/img-7.jpg" class="d-block w-100"
+                                        alt="Three Slide" />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
@@ -608,7 +614,8 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="assets/images/small/img-4.jpg" class="d-block w-100" alt="One Slide">
+                                    <img src="{{ asset('') }}assets/images/small/img-4.jpg" class="d-block w-100"
+                                        alt="One Slide">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>Drawing a sketch</h5>
                                         <p>Too much or too little spacing, as in the example below, can make things
@@ -616,7 +623,8 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="assets/images/small/img-5.jpg" class="d-block w-100" alt="Two Slide">
+                                    <img src="{{ asset('') }}assets/images/small/img-5.jpg" class="d-block w-100"
+                                        alt="Two Slide">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>Blue clock on a pastel background</h5>
                                         <p>In some designs, you might adjust your tracking to create a certain artistic
@@ -624,7 +632,8 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/small/img-6.jpg" class="d-block w-100" alt="Three Slide">
+                                    <img src="{{ asset('') }}assets/images/small/img-6.jpg" class="d-block w-100"
+                                        alt="Three Slide">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>Working at a coffee shop</h5>
                                         <p>A wonderful serenity has taken possession of my entire soul, like these sweet

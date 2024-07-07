@@ -48,7 +48,8 @@
                                 <div class="row justify-content-between">
                                     <div class="col-lg-5 col-sm-6">
                                         <div class="card">
-                                            <img src="assets/images/small/img-1.jpg" class="card-img-top" alt="card img">
+                                            <img src="{{ asset('') }}assets/images/small/img-1.jpg" class="card-img-top"
+                                                alt="card img">
 
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
@@ -60,7 +61,7 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-6">
                                         <div class="card" aria-hidden="true">
-                                            <img src="assets/images/small/img-2.jpg" class="card-img-top"
+                                            <img src="{{ asset('') }}assets/images/small/img-2.jpg" class="card-img-top"
                                                 alt="card dummy img">
                                             <div class="card-body">
                                                 <h5 class="card-title placeholder-glow">
@@ -165,7 +166,8 @@
                 </div><!-- end card header -->
                 <div class="card-body">
                     <p class="text-muted">Use <code>placeholder-lg</code>, <code>placeholder-sm</code>, or
-                        <code>placeholder-xs</code> class to placeholder class to set different size placeholder.</p>
+                        <code>placeholder-xs</code> class to placeholder class to set different size placeholder.
+                    </p>
                     <div class="live-preview">
                         <div class="row gap-0">
                             <div class="col-12">

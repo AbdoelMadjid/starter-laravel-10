@@ -48,13 +48,16 @@
                     <div class="swiper default-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-1.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-1.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-2.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-3.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -76,13 +79,16 @@
                     <div class="swiper navigation-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-4.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-5.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-6.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-button-next"></div>
@@ -107,13 +113,16 @@
                     <div class="swiper pagination-dynamic-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-7.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-8.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-8.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-9.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-9.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-pagination dynamic-pagination"></div>
@@ -135,13 +144,16 @@
                     <div class="swiper pagination-fraction-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-10.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-10.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-11.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-11.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-12.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-12.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-button-next"></div>
@@ -165,13 +177,16 @@
                     <div class="swiper pagination-custom-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-2.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-3.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-4.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-pagination pagination-custom"></div>
@@ -193,13 +208,16 @@
                     <div class="swiper pagination-progress-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-5.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-6.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-7.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-button-next"></div>
@@ -223,13 +241,16 @@
                     <div class="swiper pagination-scrollbar-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-8.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-8.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-9.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-9.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-10.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-10.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-button-next"></div>
@@ -253,13 +274,16 @@
                     <div class="swiper vertical-swiper rounded" style="height: 324px;">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-11.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-11.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-12.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-12.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-1.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-1.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -282,13 +306,16 @@
                     <div class="swiper mousewheel-control-swiper rounded" style="height: 324px;">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-3.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-4.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-5.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -310,13 +337,16 @@
                     <div class="swiper effect-fade-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-6.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-7.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-8.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-8.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -338,13 +368,16 @@
                     <div class="swiper effect-creative-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-9.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-9.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-10.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-10.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-11.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-11.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -365,13 +398,16 @@
                     <div class="swiper effect-flip-swiper rounded">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-12.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-12.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-1.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-1.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-2.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -393,22 +429,28 @@
                     <div class="swiper effect-coverflow-swiper rounded pb-5">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-4.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-5.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-6.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-7.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-8.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-8.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="assets/images/small/img-9.jpg" alt="" class="img-fluid" />
+                                <img src="{{ asset('') }}assets/images/small/img-9.jpg" alt=""
+                                    class="img-fluid" />
                             </div>
                         </div>
                         <div class="swiper-pagination swiper-pagination-dark"></div>
@@ -433,8 +475,8 @@
                                 <div class="gallery-box card">
                                     <div class="gallery-container">
                                         <a class="image-popup" href="assets/images/small/img-1.jpg" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-1.jpg"
-                                                alt="" />
+                                            <img class="gallery-img img-fluid mx-auto"
+                                                src="{{ asset('') }}assets/images/small/img-1.jpg" alt="" />
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Glasses and laptop from above</h5>
                                             </div>
@@ -466,8 +508,8 @@
                                 <div class="gallery-box card">
                                     <div class="gallery-container">
                                         <a class="image-popup" href="assets/images/small/img-2.jpg" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-2.jpg"
-                                                alt="" />
+                                            <img class="gallery-img img-fluid mx-auto"
+                                                src="{{ asset('') }}assets/images/small/img-2.jpg" alt="" />
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Working at a coffee shop</h5>
                                             </div>
@@ -500,7 +542,7 @@
                                     <div class="gallery-container">
                                         <a class="image-popup" href="assets/images/small/img-10.jpg" title="">
                                             <img class="gallery-img img-fluid mx-auto"
-                                                src="assets/images/small/img-10.jpg" alt="">
+                                                src="{{ asset('') }}assets/images/small/img-10.jpg" alt="">
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Fun day at the Hill Station</h5>
                                             </div>
@@ -532,8 +574,8 @@
                                 <div class="gallery-box card">
                                     <div class="gallery-container">
                                         <a class="image-popup" href="assets/images/small/img-4.jpg" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-4.jpg"
-                                                alt="" />
+                                            <img class="gallery-img img-fluid mx-auto"
+                                                src="{{ asset('') }}assets/images/small/img-4.jpg" alt="" />
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Drawing a sketch</h5>
                                             </div>
@@ -565,8 +607,8 @@
                                 <div class="gallery-box card">
                                     <div class="gallery-container">
                                         <a class="image-popup" href="assets/images/small/img-6.jpg" title="">
-                                            <img class="gallery-img img-fluid mx-auto" src="assets/images/small/img-6.jpg"
-                                                alt="" />
+                                            <img class="gallery-img img-fluid mx-auto"
+                                                src="{{ asset('') }}assets/images/small/img-6.jpg" alt="" />
                                             <div class="gallery-overlay">
                                                 <h5 class="overlay-caption">Project discussion with team</h5>
                                             </div>

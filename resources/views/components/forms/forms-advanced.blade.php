@@ -107,8 +107,8 @@
                                 <label class="form-label">Select input with buttons & Flag with number</label>
                                 <div class="input-group" data-input-flag>
                                     <button class="btn btn-light border" type="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false"><img src="assets/images/flags/us.svg" alt="flag img"
-                                            height="20" class="country-flagimg rounded"><span
+                                        aria-expanded="false"><img src="{{ asset('') }}assets/images/flags/us.svg"
+                                            alt="flag img" height="20" class="country-flagimg rounded"><span
                                             class="ms-2 country-codeno">+ 1</span></button>
                                     <input type="text" class="form-control rounded-end flag-input" value=""
                                         placeholder="Enter number"
@@ -127,8 +127,8 @@
                                 <label class="form-label">Select input with buttons & Flag</label>
                                 <div class="input-group" data-input-flag data-option-countrycode="false">
                                     <button class="btn btn-light border" type="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false"><img src="assets/images/flags/us.svg" alt="flag img"
-                                            height="20" class="country-flagimg rounded"><span
+                                        aria-expanded="false"><img src="{{ asset('') }}assets/images/flags/us.svg"
+                                            alt="flag img" height="20" class="country-flagimg rounded"><span
                                             class="ms-2 country-codeno">+ 1</span></button>
                                     <input type="text" class="form-control rounded-end flag-input" value=""
                                         placeholder="Enter number"

@@ -38,7 +38,8 @@
                 </div><!-- end card header -->
                 <div class="card-body">
                     <p class="text-muted">Use <code>list-group</code> class in an unordered list and
-                        <code>list-group-item</code> class to create a default list group.</p>
+                        <code>list-group-item</code> class to create a default list group.
+                    </p>
                     <div class="live-preview">
                         <ul class="list-group">
                             <li class="list-group-item"><i class="ri-bill-line align-middle me-2"></i> Send the billing
@@ -114,13 +115,14 @@
                 </div><!-- end card header -->
                 <div class="card-body">
                     <p class="text-muted">Use <code>disabled</code> class to <code>list-group-item</code> to make it
-                        <em>appear</em> disabled.</p>
+                        <em>appear</em> disabled.
+                    </p>
                     <div class="live-preview">
                         <ul class="list-group">
                             <li class="list-group-item disabled" aria-disabled="true">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-1.jpg" alt=""
+                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
                                             class="avatar-xs rounded-circle">
                                     </div>
                                     <div class="flex-grow-1 ms-2">
@@ -131,7 +133,7 @@
                             <li class="list-group-item">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-2.jpg" alt=""
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
                                             class="avatar-xs rounded-circle">
                                     </div>
                                     <div class="flex-grow-1 ms-2">
@@ -142,7 +144,7 @@
                             <li class="list-group-item">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-3.jpg" alt=""
+                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                             class="avatar-xs rounded-circle">
                                     </div>
                                     <div class="flex-grow-1 ms-2">
@@ -153,7 +155,7 @@
                             <li class="list-group-item">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-3.jpg" alt=""
+                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                             class="avatar-xs rounded-circle">
                                     </div>
                                     <div class="flex-grow-1 ms-2">
@@ -569,7 +571,7 @@ Erica Kernan
                                 </div>
                                 <div class="d-flex mb-2 align-items-center">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-1.jpg" alt=""
+                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
                                             class="avatar-sm rounded-circle" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -588,7 +590,7 @@ Erica Kernan
                                 </div>
                                 <div class="d-flex mb-2 align-items-center">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-2.jpg" alt=""
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
                                             class="avatar-sm rounded-circle" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -607,7 +609,7 @@ Erica Kernan
                                 </div>
                                 <div class="d-flex mb-2 align-items-center">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-3.jpg" alt=""
+                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                             class="avatar-sm rounded-circle" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -626,7 +628,7 @@ Erica Kernan
                                 </div>
                                 <div class="d-flex mb-2 align-items-center">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-4.jpg" alt=""
+                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
                                             class="avatar-sm rounded-circle" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -646,7 +648,7 @@ Erica Kernan
 <code>&lt;div class=&quot;list-group&quot;&gt;
 &lt;a href=&quot;javascript:void(0);&quot; class=&quot;list-group-item list-group-item-action active&quot;&gt;
 &lt;div class=&quot;float-end&quot;&gt;
-Pending 
+Pending
 &lt;/div&gt;
 &lt;div class=&quot;d-flex mb-2 align-items-center&quot;&gt;
 &lt;div class=&quot;flex-shrink-0&quot;&gt;
@@ -661,7 +663,7 @@ Pending
 &lt;/a&gt;</code>
 <code>&lt;a href=&quot;javascript:void(0);&quot; class=&quot;list-group-item list-group-item-action&quot;&gt;
 &lt;div class=&quot;float-end&quot;&gt;
-Pending 
+Pending
 &lt;/div&gt;
 &lt;div class=&quot;d-flex mb-2 align-items-center&quot;&gt;
 &lt;div class=&quot;flex-shrink-0&quot;&gt;
@@ -676,7 +678,7 @@ Pending
 &lt;/a&gt;</code>
 <code>&lt;a href=&quot;javascript:void(0);&quot; class=&quot;list-group-item list-group-item-action&quot;&gt;
 &lt;div class=&quot;float-end&quot;&gt;
-Rejected 
+Rejected
 &lt;/div&gt;
 &lt;div class=&quot;d-flex mb-2 align-items-center&quot;&gt;
 &lt;div class=&quot;flex-shrink-0&quot;&gt;
@@ -691,7 +693,7 @@ Rejected
 &lt;/a&gt;</code>
 <code>&lt;a href=&quot;javascript:void(0);&quot; class=&quot;list-group-item list-group-item-action&quot;&gt;
 &lt;div class=&quot;float-end&quot;&gt;
-Successful 
+Successful
 &lt;/div&gt;
 &lt;div class=&quot;d-flex mb-2 align-items-center&quot;&gt;
 &lt;div class=&quot;flex-shrink-0&quot;&gt;
@@ -754,7 +756,7 @@ Successful
 Send the billing agreement &lt;span class=&quot;badge bg-success&quot;&gt;High&lt;/span&gt;
 &lt;/li&gt;
 &lt;li class=&quot;list-group-item d-flex justify-content-between align-items-center&quot;&gt;
-Send over all the documentation 
+Send over all the documentation
 &lt;/li&gt;
 &lt;li class=&quot;list-group-item d-flex justify-content-between align-items-center&quot;&gt;
 Meeting with daron to review the intake form &lt;span class=&quot;badge bg-danger&quot;&gt;Low&lt;/span&gt;
@@ -967,7 +969,8 @@ Wrong UX/UI Solution
                 </div><!-- end card header -->
                 <div class="card-body">
                     <p class="text-muted">Use <code>list-group-numbered</code> class (optionally use an
-                        <code>&lt;ol&gt;</code> element) to show numbered list group items. </p>
+                        <code>&lt;ol&gt;</code> element) to show numbered list group items.
+                    </p>
                     <div class="live-preview">
                         <ol class="list-group list-group-numbered">
                             <li class="list-group-item">Send the billing agreement</li>
@@ -1055,8 +1058,8 @@ Wrong UX/UI Solution
                                         <div class="flex-grow-1">
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-2.jpg" alt=""
-                                                        class="avatar-xs rounded" />
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                        alt="" class="avatar-xs rounded" />
                                                 </div>
                                                 <div class="flex-shrink-0 ms-2">
                                                     <h6 class="fs-14 mb-0">Emily Slater</h6>
@@ -1094,8 +1097,8 @@ Wrong UX/UI Solution
                                         <div class="flex-grow-1">
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0">
-                                                    <img src="assets/images/users/avatar-3.jpg" alt=""
-                                                        class="avatar-xs rounded" />
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                        alt="" class="avatar-xs rounded" />
                                                 </div>
                                                 <div class="flex-shrink-0 ms-2">
                                                     <h6 class="fs-14 mb-0">Harvey Wells</h6>
@@ -1113,7 +1116,7 @@ Wrong UX/UI Solution
                     </div>
                     <div class="d-none code-view">
                         <pre class="language-markup" style="height: 215px;">
-<code>&lt;div data-simplebar style=&quot;max-height: 215px;&quot;&gt; 
+<code>&lt;div data-simplebar style=&quot;max-height: 215px;&quot;&gt;
 &lt;ul class=&quot;list-group&quot;&gt;
 &lt;li class=&quot;list-group-item&quot;&gt;
 &lt;div class=&quot;d-flex align-items-center&quot;&gt;

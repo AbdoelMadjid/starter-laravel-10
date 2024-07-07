@@ -52,7 +52,7 @@
                                 <div class="toast fade show" role="alert" aria-live="assertive" data-bs-autohide="false"
                                     aria-atomic="true">
                                     <div class="toast-header">
-                                        <img src="assets/images/logo-sm.png" class="rounded me-2" alt="..."
+                                        <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
                                             height="20">
                                         <span class="fw-semibold me-auto">Velzon</span>
                                         <small>06 mins ago</small>
@@ -73,7 +73,7 @@
                                         <div class="toast fade show" role="alert" aria-live="assertive"
                                             data-bs-autohide="false" aria-atomic="true">
                                             <div class="toast-header">
-                                                <img src="assets/images/logo-sm.png" class="rounded me-2" alt="..."
+                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
                                                     height="20">
                                                 <span class="fw-semibold me-auto">Velzon</span>
                                                 <small>11 mins ago</small>
@@ -100,7 +100,7 @@
                                         <div class="toast fade show" role="alert" aria-live="assertive"
                                             data-bs-autohide="false" aria-atomic="true">
                                             <div class="toast-header">
-                                                <img src="assets/images/logo-sm.png" class="rounded me-2" alt="..."
+                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
                                                     height="20">
                                                 <span class="fw-semibold me-auto">Velzon</span>
                                                 <small>Just now</small>
@@ -115,7 +115,7 @@
                                         <div class="toast fade show" role="alert" aria-live="assertive"
                                             data-bs-autohide="false" aria-atomic="true">
                                             <div class="toast-header">
-                                                <img src="assets/images/logo-sm.png" class="rounded me-2" alt="..."
+                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
                                                     height="20">
                                                 <span class="fw-semibold me-auto">Velzon</span>
                                                 <small>2 seconds ago</small>
@@ -153,7 +153,7 @@
                                                 aria-atomic="true" data-bs-toggle="toast"
                                                 style="position: absolute; top: 16px; right: 16px;">
                                                 <div class="toast-header">
-                                                    <img src="assets/images/logo-sm.png" class="rounded me-2"
+                                                    <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
                                                         alt="..." height="20">
                                                     <span class="fw-semibold me-auto">Velzon</span>
                                                     <small>06 mins ago</small>
@@ -181,7 +181,7 @@
                                             <div class="toast fade show" role="alert" aria-live="assertive"
                                                 data-bs-autohide="false" aria-atomic="true">
                                                 <div class="toast-header">
-                                                    <img src="assets/images/logo-sm.png" class="rounded me-2"
+                                                    <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
                                                         alt="..." height="20">
                                                     <span class="fw-semibold me-auto">Velzon</span>
                                                     <small>11 mins ago</small>
@@ -203,7 +203,7 @@
 
                     <div class="d-none code-view">
                         <pre class="language-markup" style="height: 275px;">
-<code>&lt;!-- Default Toast --&gt; 
+<code>&lt;!-- Default Toast --&gt;
 &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot;
 data-bs-autohide=&quot;false&quot; aria-atomic=&quot;true&quot;&gt;
 &lt;div class=&quot;toast-header&quot;&gt;
@@ -219,7 +219,7 @@ Hello, world! This is a toast message.
 &lt;/div&gt;
 &lt;/div&gt;</code>
 
-<code>&lt;!-- Translucent Toast --&gt; 
+<code>&lt;!-- Translucent Toast --&gt;
 &lt;div class=&quot;p-3 bg-light&quot;&gt;
 &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot;
 data-bs-autohide=&quot;false&quot; aria-atomic=&quot;true&quot;&gt;
@@ -237,7 +237,7 @@ Hello, world! This is a toast message.
 &lt;/div&gt;
 &lt;/div&gt;</code>
 
-<code>&lt;!-- Stacking Toast --&gt; 
+<code>&lt;!-- Stacking Toast --&gt;
 &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot;
 data-bs-autohide=&quot;false&quot; aria-atomic=&quot;true&quot;&gt;
 &lt;div class=&quot;toast-header&quot;&gt;
@@ -253,7 +253,7 @@ See? Just like this.
 &lt;/div&gt;
 &lt;/div&gt;</code>
 
-<code>&lt;!-- Placement Toast --&gt; 
+<code>&lt;!-- Placement Toast --&gt;
 &lt;div class=&quot;bg-light&quot; aria-live=&quot;polite&quot; aria-atomic=&quot;true&quot;
 style=&quot;position: relative; min-height: 200px;&quot;&gt;
 &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot;
@@ -338,7 +338,7 @@ Hello, world! This is a toast message.
                             <div class="toast-container position-absolute p-3" id="toastPlacement">
                                 <div class="toast">
                                     <div class="toast-header">
-                                        <img src="assets/images/logo-sm.png" class="rounded me-2" alt="..."
+                                        <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
                                             height="20">
                                         <strong class="me-auto">Velzon</strong>
                                         <small>11 mins ago</small>

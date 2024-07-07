@@ -187,7 +187,7 @@
                                         <div class="flex-shrink-0">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-1.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-1.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -203,7 +203,7 @@
                                         <div class="flex-shrink-0">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-2.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-2.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -219,7 +219,7 @@
                                         <div class="flex-shrink-0">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-3.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-3.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -235,7 +235,7 @@
                                         <div class="flex-shrink-0">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-4.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-4.jpg">
                                             </div>
                                         </div>
                                     </div>
@@ -280,7 +280,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-1.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-1.jpg">
                                             </div>
                                         </div>
 
@@ -301,7 +301,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-2.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-2.jpg">
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 overflow-hidden">
@@ -320,7 +320,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-3.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-3.jpg">
                                             </div>
                                         </div>
                                         <div class="flex-grow-1">
@@ -339,7 +339,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-4.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-4.jpg">
                                             </div>
                                         </div>
                                         <div class="flex-grow-1">
@@ -450,7 +450,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-1.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-1.jpg">
                                             </div>
                                         </div>
 
@@ -474,7 +474,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-2.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-2.jpg">
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 overflow-hidden">
@@ -496,7 +496,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-3.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-3.jpg">
                                             </div>
                                         </div>
                                         <div class="flex-grow-1">
@@ -518,7 +518,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-4.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-4.jpg">
                                             </div>
                                         </div>
                                         <div class="flex-grow-1">
@@ -540,7 +540,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-1.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-1.jpg">
                                             </div>
                                         </div>
 
@@ -564,7 +564,7 @@
                                         <div class="flex-shrink-0 me-3">
                                             <div>
                                                 <img class="image avatar-xs rounded-circle" alt=""
-                                                    src="assets/images/users/avatar-2.jpg">
+                                                    src="{{ asset('') }}assets/images/users/avatar-2.jpg">
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 overflow-hidden">

@@ -48,13 +48,14 @@
 
                         <div class="row align-items-center">
                             <div class="col-6">
-                                <img class="rounded" alt="200x200" width="200" src="assets/images/small/img-4.jpg"
-                                    data-holder-rendered="true">
+                                <img class="rounded" alt="200x200" width="200"
+                                    src="{{ asset('') }}assets/images/small/img-4.jpg" data-holder-rendered="true">
                             </div><!-- end col -->
                             <div class="col-6">
                                 <div class="mt-4 mt-md-0">
                                     <img class="rounded-circle avatar-xl" alt="200x200"
-                                        src="assets/images/users/avatar-4.jpg" data-holder-rendered="true">
+                                        src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                        data-holder-rendered="true">
                                 </div>
                             </div><!-- end col -->
                         </div>
@@ -96,13 +97,14 @@
 
                         <div class="row">
                             <div class="col-6">
-                                <img class="img-thumbnail" alt="200x200" width="200" src="assets/images/small/img-3.jpg"
-                                    data-holder-rendered="true">
+                                <img class="img-thumbnail" alt="200x200" width="200"
+                                    src="{{ asset('') }}assets/images/small/img-3.jpg" data-holder-rendered="true">
                             </div><!-- end col -->
                             <div class="col-6">
                                 <div class="mt-4 mt-md-0">
                                     <img class="img-thumbnail rounded-circle avatar-xl" alt="200x200"
-                                        src="assets/images/users/avatar-3.jpg" data-holder-rendered="true">
+                                        src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                        data-holder-rendered="true">
                                 </div>
                             </div><!-- end col -->
                         </div>
@@ -140,7 +142,8 @@
 
                     <p class="text-muted mb-4">Use <code>avatar-xxs</code>, <code>avatar-xs</code>, <code>avatar-sm</code>,
                         <code>avatar-md</code>, <code>avatar-lg</code>, <code>avatar-xl</code> class for different image
-                        sizes.</p>
+                        sizes.
+                    </p>
 
                     <div class="live-preview">
 
@@ -149,42 +152,42 @@
                                 <div class="row g-3">
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-2.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
                                                 class="rounded avatar-xxs">
                                             <p class="mt-2 mb-lg-0"><code>avatar-xxs</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-10.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-10.jpg" alt=""
                                                 class="rounded avatar-xs">
                                             <p class="mt-2 mb-lg-0"><code>avatar-xs</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-3.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                                 class="rounded avatar-sm">
                                             <p class="mt-2 mb-lg-0"><code>avatar-sm</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-4.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
                                                 class="rounded avatar-md">
                                             <p class="mt-2  mb-lg-0"><code>avatar-md</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-5.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-5.jpg" alt=""
                                                 class="rounded avatar-lg">
                                             <p class="mt-2 mb-lg-0"><code>avatar-lg</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-8.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
                                                 class="rounded avatar-xl">
                                             <p class="mt-2 mb-lg-0"><code>avatar-xl</code></p>
                                         </div>
@@ -196,42 +199,42 @@
                                 <div class="row g-3 mt-5">
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-2.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
                                                 class="rounded-circle avatar-xxs">
                                             <p class="mt-2 mb-lg-0"><code>avatar-xxs</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-10.jpg" alt=""
-                                                class="rounded-circle avatar-xs">
+                                            <img src="{{ asset('') }}assets/images/users/avatar-10.jpg"
+                                                alt="" class="rounded-circle avatar-xs">
                                             <p class="mt-2 mb-lg-0"><code>avatar-xs</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-3.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                                 class="rounded-circle avatar-sm">
                                             <p class="mt-2 mb-lg-0"><code>avatar-sm</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-4.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
                                                 class="rounded-circle avatar-md">
                                             <p class="mt-2  mb-lg-0"><code>avatar-md</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-5.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-5.jpg" alt=""
                                                 class="rounded-circle avatar-lg">
                                             <p class="mt-2 mb-lg-0"><code>avatar-lg</code></p>
                                         </div>
                                     </div><!-- end col -->
                                     <div class="col-xxl-2 col-md-4 col-6">
                                         <div>
-                                            <img src="assets/images/users/avatar-8.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
                                                 class="rounded-circle avatar-xl">
                                             <p class="mt-2 mb-lg-0"><code>avatar-xl</code></p>
                                         </div>
@@ -405,11 +408,11 @@ Xl
                                         the group.</p>
                                     <div class="avatar-group">
                                         <div class="avatar-group-item">
-                                            <img src="assets/images/users/avatar-4.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
                                                 class="rounded-circle avatar-sm">
                                         </div>
                                         <div class="avatar-group-item">
-                                            <img src="assets/images/users/avatar-5.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-5.jpg" alt=""
                                                 class="rounded-circle avatar-sm">
                                         </div>
                                         <div class="avatar-group-item">
@@ -420,7 +423,7 @@ Xl
                                             </div>
                                         </div>
                                         <div class="avatar-group-item">
-                                            <img src="assets/images/users/avatar-2.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
                                                 class="rounded-circle avatar-sm">
                                         </div>
                                     </div>
@@ -435,12 +438,12 @@ Xl
                                     <div class="avatar-group">
                                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                             data-bs-placement="top" title="Christi">
-                                            <img src="assets/images/users/avatar-4.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
                                                 class="rounded-circle avatar-sm">
                                         </a>
                                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                             data-bs-placement="top" title="Frank Hook">
-                                            <img src="assets/images/users/avatar-3.jpg" alt=""
+                                            <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                                 class="rounded-circle avatar-sm">
                                         </a>
                                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
@@ -535,22 +538,23 @@ C
 
                     <p class="card-title-desc text-muted">Use the included <code>figure</code>, <code>figure-img</code> and
                         <code>figure-caption</code> classes to provide some baseline styles for the HTML5
-                        <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> elements.</p>
+                        <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> elements.
+                    </p>
 
                     <div class="live-preview">
 
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <figure class="figure mb-0">
-                                    <img src="assets/images/small/img-4.jpg" class="figure-img img-fluid rounded"
-                                        alt="...">
+                                    <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                        class="figure-img img-fluid rounded" alt="...">
                                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                                 </figure>
                             </div>
                             <div class="col-sm-6">
                                 <figure class="figure mb-0">
-                                    <img src="assets/images/small/img-5.jpg" class="figure-img img-fluid rounded"
-                                        alt="...">
+                                    <img src="{{ asset('') }}assets/images/small/img-5.jpg"
+                                        class="figure-img img-fluid rounded" alt="...">
                                     <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
                                 </figure>
                             </div>
@@ -595,7 +599,8 @@ C
                     <div class="live-preview">
 
                         <div>
-                            <img src="assets/images/small/img-2.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="{{ asset('') }}assets/images/small/img-2.jpg" class="img-fluid"
+                                alt="Responsive image">
                         </div>
 
                     </div>

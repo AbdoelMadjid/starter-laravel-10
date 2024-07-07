@@ -136,7 +136,7 @@
                                                 <div class="d-flex align-items-center">
                                                     <div
                                                         class="flex-shrink-0 chat-user-img online user-own-img align-self-center me-3 ms-0">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
                                                             class="rounded-circle avatar-xs" alt="">
                                                         <span class="user-status"></span>
                                                     </div>
@@ -244,7 +244,7 @@
                                                 <div class="d-flex align-items-center">
                                                     <div
                                                         class="flex-shrink-0 chat-user-img online user-own-img align-self-center me-3 ms-0">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
                                                             class="rounded-circle avatar-xs" alt="">
                                                     </div>
                                                     <div class="flex-grow-1 overflow-hidden">
@@ -401,7 +401,7 @@
         <!--end offcanvas-header-->
         <div class="offcanvas-body profile-offcanvas p-0">
             <div class="team-cover">
-                <img src="assets/images/small/img-9.jpg" alt="" class="img-fluid" />
+                <img src="{{ asset('') }}assets/images/small/img-9.jpg" alt="" class="img-fluid" />
             </div>
             <div class="p-1 pb-4 pt-0">
                 <div class="team-settings">
@@ -442,7 +442,7 @@
                 <!--end col-->
             </div>
             <div class="p-3 text-center">
-                <img src="assets/images/users/avatar-2.jpg" alt=""
+                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
                     class="avatar-lg img-thumbnail rounded-circle mx-auto profile-img">
                 <div class="mt-3">
                     <h5 class="fs-16 mb-1"><a href="javascript:void(0);" class="link-primary username">Lisa Parker</a>

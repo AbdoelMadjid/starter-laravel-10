@@ -112,7 +112,7 @@
                                 <div>
                                     <div class="text-center">
                                         <div class="profile-user position-relative d-inline-block mx-auto mb-2">
-                                            <img src="assets/images/users/user-dummy-img.jpg"
+                                            <img src="{{ asset('') }}assets/images/users/user-dummy-img.jpg"
                                                 class="rounded-circle avatar-lg img-thumbnail user-profile-image"
                                                 alt="user-profile-image">
                                             <div class="avatar-xs p-0 rounded-circle profile-photo-edit">
@@ -180,10 +180,10 @@
                 <div class="card-body">
                     <form action="#" class="form-steps" autocomplete="off">
                         <div class="text-center pt-3 pb-4 mb-1 d-flex justify-content-center">
-                            <img src="assets/images/logo-dark.png" class="card-logo card-logo-dark" alt="logo dark"
-                                height="17">
-                            <img src="assets/images/logo-light.png" class="card-logo card-logo-light" alt="logo light"
-                                height="17">
+                            <img src="{{ asset('') }}assets/images/logo-dark.png" class="card-logo card-logo-dark"
+                                alt="logo dark" height="17">
+                            <img src="{{ asset('') }}assets/images/logo-light.png" class="card-logo card-logo-light"
+                                alt="logo light" height="17">
                         </div>
                         <div class="step-arrow-nav mb-4">
 

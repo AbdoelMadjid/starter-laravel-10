@@ -81,7 +81,8 @@
                                     <div class="flex-shrink-0 me-3">
                                         <div class="avatar-sm bg-light rounded">
                                             <img data-dz-thumbnail class="img-fluid rounded d-block"
-                                                src="assets/images/new-document.png" alt="Dropzone-Image" />
+                                                src="{{ asset('') }}assets/images/new-document.png"
+                                                alt="Dropzone-Image" />
                                         </div>
                                     </div>
                                     <div class="flex-grow-1">

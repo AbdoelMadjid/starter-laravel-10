@@ -75,7 +75,7 @@
 <code>&lt;!-- Single Button Dropdown --&gt;
 &lt;div class=&quot;dropdown&quot;&gt;
 &lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdownMenuButton&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
-Dropdown button 
+Dropdown button
 &lt;/button&gt;
 &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuButton&quot;&gt;
 &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
@@ -86,7 +86,7 @@ Dropdown button
 
 <code>&lt;div class=&quot;dropdown&quot;&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn-secondary dropdown-toggle&quot; data-bs-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;
-Dropdown link 
+Dropdown link
 &lt;/a&gt;
 &lt;div class=&quot;dropdown-menu&quot;&gt;
 &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
@@ -1478,7 +1478,7 @@ Manual close
 <code>&lt;!-- Menu Content --&gt;
 &lt;div class=&quot;btn-group&quot;&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-primary dropdown-toggle&quot; data-bs-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
-Header 
+Header
 &lt;/button&gt;
 &lt;div class=&quot;dropdown-menu&quot;&gt;
 &lt;div class=&quot;dropdown-header noti-title&quot;&gt;
@@ -1496,7 +1496,7 @@ Header
 <code>&lt;!-- text Content --&gt;
 &lt;div class=&quot;btn-group&quot;&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-success dropdown-toggle&quot; data-bs-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
-Text 
+Text
 &lt;/button&gt;
 &lt;div class=&quot;dropdown-menu dropdown-menu-md p-3&quot;&gt;
 &lt;p&gt;
@@ -1511,7 +1511,7 @@ And this is more example text.
 <code>&lt;!-- Forms Content --&gt;
 &lt;div class=&quot;btn-group&quot;&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-light dropdown-toggle&quot; data-bs-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
-Forms 
+Forms
 &lt;/button&gt;
 &lt;div class=&quot;dropdown-menu dropdown-menu-md p-4&quot;&gt;
 &lt;form&gt;
@@ -1631,7 +1631,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -1678,7 +1678,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-8.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -1716,7 +1716,7 @@ Forms
                                             <div data-simplebar style="max-height: 300px;" class="pe-2">
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-3.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -1739,7 +1739,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -1763,7 +1763,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-6.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -1787,7 +1787,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-8.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -1820,7 +1820,7 @@ Forms
                                         <div class="tab-pane fade p-4" id="alerts-tab1" role="tabpanel"
                                             aria-labelledby="alerts-tab">
                                             <div class="w-25 pt-3 mx-auto">
-                                                <img src="assets/images/svg/bell.svg" class="img-fluid"
+                                                <img src="{{ asset('') }}assets/images/svg/bell.svg" class="img-fluid"
                                                     alt="user-pic">
                                             </div>
                                             <div class="text-center pb-5 mt-2">
@@ -1905,7 +1905,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -1952,7 +1952,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-8.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -1989,7 +1989,7 @@ Forms
                                             <div data-simplebar style="max-height: 300px;" class="pe-2">
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-3.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2012,7 +2012,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2036,7 +2036,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-6.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2059,7 +2059,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-8.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2091,7 +2091,7 @@ Forms
                                         <div class="tab-pane fade p-4" id="alerts-tab2" role="tabpanel"
                                             aria-labelledby="alerts-tab">
                                             <div class="w-25 pt-3 mx-auto">
-                                                <img src="assets/images/svg/bell.svg" class="img-fluid"
+                                                <img src="{{ asset('') }}assets/images/svg/bell.svg" class="img-fluid"
                                                     alt="user-pic">
                                             </div>
                                             <div class="text-center pb-5 mt-2">
@@ -2176,7 +2176,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2223,7 +2223,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-8.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2260,7 +2260,7 @@ Forms
                                             <div data-simplebar style="max-height: 300px;" class="pe-2">
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-3.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2283,7 +2283,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-2.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2307,7 +2307,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-6.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2330,7 +2330,7 @@ Forms
 
                                                 <div class="text-reset notification-item d-block dropdown-item">
                                                     <div class="d-flex">
-                                                        <img src="assets/images/users/avatar-8.jpg"
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
                                                             class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                         <div class="flex-grow-1">
                                                             <a href="#!">
@@ -2362,7 +2362,7 @@ Forms
                                         <div class="tab-pane fade p-4" id="alerts-tab3" role="tabpanel"
                                             aria-labelledby="alerts-tab">
                                             <div class="w-25 pt-3 mx-auto">
-                                                <img src="assets/images/svg/bell.svg" class="img-fluid"
+                                                <img src="{{ asset('') }}assets/images/svg/bell.svg" class="img-fluid"
                                                     alt="user-pic">
                                             </div>
                                             <div class="text-center pb-5 mt-2">
@@ -2412,7 +2412,7 @@ Forms
     &lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;                                    
+&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;tab-content&quot; id=&quot;notificationItemsTabContent&quot;&gt;

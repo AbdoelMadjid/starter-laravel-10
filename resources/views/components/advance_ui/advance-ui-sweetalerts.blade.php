@@ -227,8 +227,8 @@
                             <div class="row justify-content-center mt-2">
                                 <div class="col-lg-10">
                                     <div>
-                                        <img src="assets/images/sweetalert2/success-message.png" alt="Mac Image"
-                                            class="img-fluid">
+                                        <img src="{{ asset('') }}assets/images/sweetalert2/success-message.png"
+                                            alt="Mac Image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -251,8 +251,8 @@
                             <div class="row justify-content-center mt-2">
                                 <div class="col-lg-10">
                                     <div>
-                                        <img src="assets/images/sweetalert2/error-message.png" alt="Mac Image"
-                                            class="img-fluid">
+                                        <img src="{{ asset('') }}assets/images/sweetalert2/error-message.png"
+                                            alt="Mac Image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -274,8 +274,8 @@
                             <div class="row justify-content-center mt-2">
                                 <div class="col-lg-10">
                                     <div>
-                                        <img src="assets/images/sweetalert2/warning-message.png" alt="Mac Image"
-                                            class="img-fluid">
+                                        <img src="{{ asset('') }}assets/images/sweetalert2/warning-message.png"
+                                            alt="Mac Image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -300,8 +300,8 @@
                             <div class="row justify-content-center mt-2">
                                 <div class="col-lg-10">
                                     <div>
-                                        <img src="assets/images/sweetalert2/join-community.png" alt="Mac Image"
-                                            class="img-fluid">
+                                        <img src="{{ asset('') }}assets/images/sweetalert2/join-community.png"
+                                            alt="Mac Image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -325,8 +325,8 @@
                             <div class="row justify-content-center mt-2">
                                 <div class="col-lg-10">
                                     <div>
-                                        <img src="assets/images/sweetalert2/email-verify.png" alt="Mac Image"
-                                            class="img-fluid">
+                                        <img src="{{ asset('') }}assets/images/sweetalert2/email-verify.png"
+                                            alt="Mac Image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -352,8 +352,8 @@
                             <div class="row justify-content-center mt-2">
                                 <div class="col-lg-10">
                                     <div>
-                                        <img src="assets/images/sweetalert2/notification-message.png" alt="Mac Image"
-                                            class="img-fluid">
+                                        <img src="{{ asset('') }}assets/images/sweetalert2/notification-message.png"
+                                            alt="Mac Image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>

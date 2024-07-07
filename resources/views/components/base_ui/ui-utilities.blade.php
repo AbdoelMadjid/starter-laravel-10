@@ -357,43 +357,43 @@
                             <div>
                                 <div class="d-flex align-items-start flex-wrap gap-4">
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-2.jpg" class="avatar-md rounded"
-                                            alt="rounded">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                            class="avatar-md rounded" alt="rounded">
                                         <p><code>.rounded</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-2.jpg" class="avatar-md rounded-top"
-                                            alt="rounded-top">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                            class="avatar-md rounded-top" alt="rounded-top">
                                         <p><code>.rounded-top</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-2.jpg" class="avatar-md rounded-end"
-                                            alt="rounded-end">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                            class="avatar-md rounded-end" alt="rounded-end">
                                         <p><code>.rounded-end</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-2.jpg" class="avatar-md rounded-bottom"
-                                            alt="rounded-bottom">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                            class="avatar-md rounded-bottom" alt="rounded-bottom">
                                         <p><code>.rounded-bottom</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-2.jpg" class="avatar-md rounded-start"
-                                            alt="rounded-start">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                            class="avatar-md rounded-start" alt="rounded-start">
                                         <p><code>.rounded-start</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-2.jpg" class="avatar-md rounded-circle"
-                                            alt="rounded-circle">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                            class="avatar-md rounded-circle" alt="rounded-circle">
                                         <p><code>.rounded-circle</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-2.jpg" class="avatar-md rounded-top"
-                                            alt="rounded-top">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                            class="avatar-md rounded-top" alt="rounded-top">
                                         <p><code>.rounded-top</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/small/img-2.jpg" class="avatar-md w-auto rounded-pill"
-                                            alt="rounded-pill">
+                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg"
+                                            class="avatar-md w-auto rounded-pill" alt="rounded-pill">
                                         <p><code>.rounded-pill</code></p>
                                     </div>
                                 </div>
@@ -402,33 +402,33 @@
                                 <h5 class="fs-13 mb-3">Sizes</h5>
                                 <div class="d-flex align-items-start flex-wrap gap-4">
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-1.jpg" class="avatar-md rounded-0"
-                                            alt="rounded-0">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                            class="avatar-md rounded-0" alt="rounded-0">
                                         <p><code>.rounded-0</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-1.jpg" class="avatar-md rounded-1"
-                                            alt="rounded-1">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                            class="avatar-md rounded-1" alt="rounded-1">
                                         <p><code>.rounded-1</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-1.jpg" class="avatar-md rounded-2"
-                                            alt="rounded-2">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                            class="avatar-md rounded-2" alt="rounded-2">
                                         <p><code>.rounded-2</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-1.jpg" class="avatar-md rounded-3"
-                                            alt="rounded-3">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                            class="avatar-md rounded-3" alt="rounded-3">
                                         <p><code>.rounded-3</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-1.jpg" class="avatar-md rounded-4"
-                                            alt="rounded-4">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                            class="avatar-md rounded-4" alt="rounded-4">
                                         <p><code>.rounded-4</code></p>
                                     </div>
                                     <div class="text-center">
-                                        <img src="assets/images/users/avatar-1.jpg" class="avatar-md rounded-5"
-                                            alt="rounded-5">
+                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                            class="avatar-md rounded-5" alt="rounded-5">
                                         <p><code>.rounded-5</code></p>
                                     </div>
                                 </div>
@@ -787,7 +787,7 @@
 &lt;div class=&quot;bg-light border p-1 px-2 ms-auto&quot;&gt;Third item&lt;/div&gt;
 &lt;/div&gt;</code>
 
-<code>&lt;div class=&quot;hstack gap-3&quot;&gt; 
+<code>&lt;div class=&quot;hstack gap-3&quot;&gt;
 &lt;input class=&quot;form-control me-auto&quot; type=&quot;text&quot; placeholder=&quot;Add your item here...&quot;&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Submit&lt;/button&gt;
 &lt;div class=&quot;vr&quot;&gt;&lt;/div&gt;
@@ -817,7 +817,8 @@
                 <div class="card-body">
                     <p class="text-muted mb-3">Use <code>user-select-all</code>, <code>user-select-auto</code>, or
                         <code>user-select-none</code> class to the content which is selected when the user interacts with
-                        it.</p>
+                        it.
+                    </p>
 
                     <div class="live-preview">
                         <div>
@@ -866,7 +867,8 @@
                             <p class="pe-none mb-0"><a href="#" class="text-success" tabindex="-1">This link</a>
                                 can not be clicked because the <code>pointer-events</code> property is inherited from its
                                 parent. However, <a href="#" class="pe-auto">this link</a> has a
-                                <code>pe-auto</code> class and can be clicked.</p>
+                                <code>pe-auto</code> class and can be clicked.
+                            </p>
                         </div>
                     </div>
 
@@ -1172,7 +1174,8 @@ This is an example of using &lt;code&gt;.overflow-scroll&lt;/code&gt; on an elem
                     <p class="text-muted">While shadows on components are disabled by default in Bootstrap and can be
                         enabled via <code>$enable-shadows</code>, you can also quickly add or remove a shadow with our
                         <code>box-shadow</code> utility classes. Includes support for <code>.shadow-none</code> and three
-                        default sizes (which have associated variables to match).</p>
+                        default sizes (which have associated variables to match).
+                    </p>
                     <div class="live-preview">
                         <div class="row gy-3">
                             <div class="col-md-6">
@@ -1224,7 +1227,8 @@ This is an example of using &lt;code&gt;.overflow-scroll&lt;/code&gt; on an elem
                 <div class="card-body">
                     <p class="text-muted">Use <code>w-25</code>,<code>w-50</code>,<code>w-75</code>,<code>w-100</code> or
                         <code>w-auto</code> class to set width <code>25%</code>, <code>50%</code>, <code>75%</code>,
-                        <code>100%</code>, or <code>auto</code> by default respectively.</p>
+                        <code>100%</code>, or <code>auto</code> by default respectively.
+                    </p>
                     <div class="live-preview">
                         <div>
                             <div class="w-25 p-3 bg-light">Width 25%</div>
@@ -1265,7 +1269,8 @@ This is an example of using &lt;code&gt;.overflow-scroll&lt;/code&gt; on an elem
                 <div class="card-body">
                     <p class="text-muted">Use <code>h-25</code>,<code>h-50</code>,<code>h-75</code>,<code>h-100</code> or
                         <code>h-auto</code> class to set height <code>25%</code>, <code>50%</code>, <code>75%</code>,
-                        <code>100%</code>, or <code>auto</code> by default respectively.</p>
+                        <code>100%</code>, or <code>auto</code> by default respectively.
+                    </p>
                     <div class="live-preview">
                         <div class="row text-center" style="height: 255px;">
                             <div class="col">

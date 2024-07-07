@@ -49,10 +49,10 @@
                             <div class="col-lg-5">
                                 <div class="text-center mt-4 mb-5">
                                     <div class="py-3 px-2 d-inline-block" id="logo-tour">
-                                        <img src="assets/images/logo-dark.png" class="card-logo card-logo-dark"
-                                            alt="logo" height="17">
-                                        <img src="assets/images/logo-light.png" class="card-logo card-logo-light"
-                                            alt="logo" height="17">
+                                        <img src="{{ asset('') }}assets/images/logo-dark.png"
+                                            class="card-logo card-logo-dark" alt="logo" height="17">
+                                        <img src="{{ asset('') }}assets/images/logo-light.png"
+                                            class="card-logo card-logo-light" alt="logo" height="17">
                                     </div>
                                     <h5 class="fs-16">Responsive Admin Dashboard Template</h5>
                                     <p class="text-muted">Vestibulum auctor tincidunt semper. Phasellus ut vulputate lacus.
