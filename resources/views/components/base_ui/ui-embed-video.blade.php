@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Embed Video')
 @push('vendor-script')
     <!-- prismjs plugin -->
     <script src="{{ asset('') }}assets/libs/prismjs/prism.js"></script>
@@ -7,21 +7,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Embed Video</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Base UI</a></li>
-                        <li class="breadcrumb-item active">Embed Video</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Base UI'])
     <!-- end page title -->
 
     <div class="row">
@@ -38,7 +24,8 @@
                 </div><!-- end card header -->
                 <div class="card-body">
                     <p class="text-muted">Wrap any embed in<code>&lt;iframe&gt;</code> tag, in a parent element, use
-                        <code>ratio-16x9</code> class to set aspect ratio 16:9. </p>
+                        <code>ratio-16x9</code> class to set aspect ratio 16:9.
+                    </p>
                     <div class="live-preview">
                         <!-- 16:9 aspect ratio -->
                         <div class="ratio ratio-16x9">

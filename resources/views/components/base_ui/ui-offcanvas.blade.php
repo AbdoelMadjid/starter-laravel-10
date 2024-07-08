@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Offcanvas')
 @push('vendor-script')
     <!-- prismjs plugin -->
     <script src="{{ asset('') }}assets/libs/prismjs/prism.js"></script>
@@ -7,21 +7,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Offcanvas</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Base UI</a></li>
-                        <li class="breadcrumb-item active">Offcanvas</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Base UI'])
     <!-- end page title -->
     <div class="row">
         <div class="col-lg-12">
@@ -61,8 +47,8 @@
                                     <div class="acitivity-timeline p-4">
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Oliver Phillips <span
@@ -89,14 +75,14 @@
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Christi">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Frank Hook">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
@@ -122,8 +108,8 @@
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Natasha Carey <span
@@ -132,16 +118,16 @@
                                                 <p class="text-muted mb-2">Adding a new event with attachments</p>
                                                 <div class="row border border-dashed gx-2 p-2 mb-2">
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                 </div>
                                                 <small class="mb-0 text-muted">25 Nov</small>
@@ -149,8 +135,8 @@
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Bethany Johnson</h6>
@@ -177,8 +163,8 @@
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Lewis Pratt</h6>
@@ -208,8 +194,8 @@
                                         </div>
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">New ticket received <span
@@ -304,7 +290,8 @@ Button with data-bs-target
                                             <div class="gallery-container">
                                                 <a href="#" title="">
                                                     <img class="gallery-img img-fluid mx-auto"
-                                                        src="{{ asset('') }}assets/images/small/img-12.jpg" alt="" />
+                                                        src="{{ asset('') }}assets/images/small/img-12.jpg"
+                                                        alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">A mix of friends and strangers heading
                                                             off to find an adventure.</h5>
@@ -341,7 +328,8 @@ Button with data-bs-target
                                             <div class="gallery-container">
                                                 <a href="#" title="">
                                                     <img class="gallery-img img-fluid mx-auto"
-                                                        src="{{ asset('') }}assets/images/small/img-9.jpg" alt="" />
+                                                        src="{{ asset('') }}assets/images/small/img-9.jpg"
+                                                        alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Dramatic clouds at the Golden Gate
                                                             Bridge</h5>
@@ -378,7 +366,8 @@ Button with data-bs-target
                                             <div class="gallery-container">
                                                 <a href="#" title="">
                                                     <img class="gallery-img img-fluid mx-auto"
-                                                        src="{{ asset('') }}assets/images/small/img-11.jpg" alt="" />
+                                                        src="{{ asset('') }}assets/images/small/img-11.jpg"
+                                                        alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Cycling in the countryside</h5>
                                                     </div>
@@ -416,7 +405,8 @@ Button with data-bs-target
                                             <div class="gallery-container">
                                                 <a href="#" title="">
                                                     <img class="gallery-img img-fluid mx-auto"
-                                                        src="{{ asset('') }}assets/images/small/img-10.jpg" alt="" />
+                                                        src="{{ asset('') }}assets/images/small/img-10.jpg"
+                                                        alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Fun day at the Hill Station</h5>
                                                     </div>
@@ -465,8 +455,8 @@ Button with data-bs-target
                                     <div class="acitivity-timeline p-4">
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Oliver Phillips <span
@@ -493,14 +483,14 @@ Button with data-bs-target
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Christi">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Frank Hook">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
@@ -526,8 +516,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Natasha Carey <span
@@ -536,16 +526,16 @@ Button with data-bs-target
                                                 <p class="text-muted mb-2">Adding a new event with attachments</p>
                                                 <div class="row border border-dashed gx-2 p-2 mb-2">
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                 </div>
                                                 <small class="mb-0 text-muted">25 Nov</small>
@@ -553,8 +543,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Bethany Johnson</h6>
@@ -581,8 +571,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Lewis Pratt</h6>
@@ -612,8 +602,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">New ticket received <span
@@ -648,7 +638,8 @@ Button with data-bs-target
                                             <div class="gallery-container">
                                                 <a href="#" title="">
                                                     <img class="gallery-img img-fluid mx-auto"
-                                                        src="{{ asset('') }}assets/images/small/img-12.jpg" alt="" />
+                                                        src="{{ asset('') }}assets/images/small/img-12.jpg"
+                                                        alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">A mix of friends and strangers heading
                                                             off to find an adventure.</h5>
@@ -685,7 +676,8 @@ Button with data-bs-target
                                             <div class="gallery-container">
                                                 <a href="#" title="">
                                                     <img class="gallery-img img-fluid mx-auto"
-                                                        src="{{ asset('') }}assets/images/small/img-9.jpg" alt="" />
+                                                        src="{{ asset('') }}assets/images/small/img-9.jpg"
+                                                        alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Dramatic clouds at the Golden Gate
                                                             Bridge</h5>
@@ -722,7 +714,8 @@ Button with data-bs-target
                                             <div class="gallery-container">
                                                 <a href="#" title="">
                                                     <img class="gallery-img img-fluid mx-auto"
-                                                        src="{{ asset('') }}assets/images/small/img-11.jpg" alt="" />
+                                                        src="{{ asset('') }}assets/images/small/img-11.jpg"
+                                                        alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Cycling in the countryside</h5>
                                                     </div>
@@ -760,7 +753,8 @@ Button with data-bs-target
                                             <div class="gallery-container">
                                                 <a href="#" title="">
                                                     <img class="gallery-img img-fluid mx-auto"
-                                                        src="{{ asset('') }}assets/images/small/img-10.jpg" alt="" />
+                                                        src="{{ asset('') }}assets/images/small/img-10.jpg"
+                                                        alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Fun day at the Hill Station</h5>
                                                     </div>
@@ -809,8 +803,8 @@ Button with data-bs-target
                                     <div class="acitivity-timeline p-4">
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Oliver Phillips <span
@@ -837,14 +831,14 @@ Button with data-bs-target
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Christi">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Frank Hook">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
@@ -870,8 +864,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Natasha Carey <span
@@ -880,16 +874,16 @@ Button with data-bs-target
                                                 <p class="text-muted mb-2">Adding a new event with attachments</p>
                                                 <div class="row border border-dashed gx-2 p-2 mb-2">
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                 </div>
                                                 <small class="mb-0 text-muted">25 Nov</small>
@@ -897,8 +891,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Bethany Johnson</h6>
@@ -925,8 +919,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Lewis Pratt</h6>
@@ -956,8 +950,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">New ticket received <span
@@ -1075,8 +1069,8 @@ Button with data-bs-target
                                     <div class="acitivity-timeline p-4">
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Oliver Phillips <span
@@ -1103,14 +1097,14 @@ Button with data-bs-target
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Christi">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Frank Hook">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
@@ -1136,8 +1130,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Natasha Carey <span
@@ -1146,16 +1140,16 @@ Button with data-bs-target
                                                 <p class="text-muted mb-2">Adding a new event with attachments</p>
                                                 <div class="row border border-dashed gx-2 p-2 mb-2">
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                 </div>
                                                 <small class="mb-0 text-muted">25 Nov</small>
@@ -1163,8 +1157,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Bethany Johnson</h6>
@@ -1191,8 +1185,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Lewis Pratt</h6>
@@ -1222,8 +1216,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">New ticket received <span
@@ -1255,8 +1249,8 @@ Button with data-bs-target
                                     <div class="acitivity-timeline p-4">
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Oliver Phillips <span
@@ -1283,14 +1277,14 @@ Button with data-bs-target
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Christi">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                         data-bs-original-title="Frank Hook">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top" title=""
@@ -1316,8 +1310,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Natasha Carey <span
@@ -1326,16 +1320,16 @@ Button with data-bs-target
                                                 <p class="text-muted mb-2">Adding a new event with attachments</p>
                                                 <div class="row border border-dashed gx-2 p-2 mb-2">
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                 </div>
                                                 <small class="mb-0 text-muted">25 Nov</small>
@@ -1343,8 +1337,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Bethany Johnson</h6>
@@ -1371,8 +1365,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Lewis Pratt</h6>
@@ -1402,8 +1396,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">New ticket received <span
@@ -1435,8 +1429,8 @@ Button with data-bs-target
                                     <div class="acitivity-timeline p-4">
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Oliver Phillips <span
@@ -1463,14 +1457,14 @@ Button with data-bs-target
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="" data-bs-original-title="Christi">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top"
                                                         title="" data-bs-original-title="Frank Hook">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                            class="rounded-circle avatar-xs">
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                            alt="" class="rounded-circle avatar-xs">
                                                     </a>
                                                     <a href="javascript: void(0);" class="avatar-group-item"
                                                         data-bs-toggle="tooltip" data-bs-placement="top"
@@ -1497,8 +1491,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Natasha Carey <span
@@ -1507,16 +1501,16 @@ Button with data-bs-target
                                                 <p class="text-muted mb-2">Adding a new event with attachments</p>
                                                 <div class="row border border-dashed gx-2 p-2 mb-2">
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                 </div>
                                                 <small class="mb-0 text-muted">25 Nov</small>
@@ -1524,8 +1518,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Bethany Johnson</h6>
@@ -1552,8 +1546,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item py-3 d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar">
+                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar">
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">Lewis Pratt</h6>
@@ -1583,8 +1577,8 @@ Button with data-bs-target
                                         </div>
                                         <div class="acitivity-item d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                    class="avatar-xs rounded-circle acitivity-avatar" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="avatar-xs rounded-circle acitivity-avatar" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h6 class="mb-1">New ticket received <span

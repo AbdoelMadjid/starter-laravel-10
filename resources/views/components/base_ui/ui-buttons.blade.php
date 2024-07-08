@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Buttons')
 @push('vendor-script')
     <!-- prismjs plugin -->
     <script src="{{ asset('') }}assets/libs/prismjs/prism.js"></script>
@@ -28,21 +28,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Buttons</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Base UI</a></li>
-                        <li class="breadcrumb-item active">Buttons</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Base UI'])
     <!-- end page title -->
 
     <div class="row">
@@ -167,8 +153,7 @@
                             <button type="button" class="btn rounded-pill btn-secondary waves-effect">Secondary</button>
                             <button type="button"
                                 class="btn rounded-pill btn-success waves-effect waves-light">Success</button>
-                            <button type="button"
-                                class="btn rounded-pill btn-info waves-effect waves-light">Info</button>
+                            <button type="button" class="btn rounded-pill btn-info waves-effect waves-light">Info</button>
                             <button type="button"
                                 class="btn rounded-pill btn-warning waves-effect waves-light">Warning</button>
                             <button type="button"
@@ -949,7 +934,8 @@ Loading...
                 </div><!-- end card header -->
                 <div class="card-body">
                     <p class="text-muted">Use <code>btn-lg</code> class to create a large size button and
-                        <code>btn-sm</code> class to create a small size button.</p>
+                        <code>btn-sm</code> class to create a small size button.
+                    </p>
                     <div class="live-preview">
                         <div class="d-flex flex-wrap align-items-center gap-2">
                             <!-- Large Button -->
@@ -1511,7 +1497,7 @@ Single toggle
 &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Left&lt;/button&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Middle&lt;/button&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Right&lt;/button&gt;
-&lt;/div&gt;</code> 
+&lt;/div&gt;</code>
 
 <code>&lt;div class=&quot;btn-group mt-2&quot; role=&quot;group&quot; aria-label=&quot;Basic example&quot;&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Left&lt;/button&gt;
@@ -1719,7 +1705,8 @@ Blurry offset focus ring
                     <p class="text-muted">In addition to <code>.focus-ring</code>, we have several
                         <code>.focus-ring-*</code> utilities to modify the helper class defaults. Modify the color with any
                         of our <a href="ui-colors.html">theme colors</a>. Note that the light and dark variants may not be
-                        visible on all background colors given current color mode support.</p>
+                        visible on all background colors given current color mode support.
+                    </p>
                     <div class="live-preview">
                         <div class="row">
                             <div class="col-lg-6">
@@ -1755,24 +1742,24 @@ Blurry offset focus ring
                     <div class="d-none code-view">
                         <pre class="language-markup" style="height: 275px;"><code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-primary py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Primary focus&lt;/a&gt;&lt;/p&gt;</code>
 
-    <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-secondary py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Secondary focus&lt;/a&gt;&lt;/p&gt;</code>
+                <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-secondary py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Secondary focus&lt;/a&gt;&lt;/p&gt;</code>
 
-    <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-success py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Success focus&lt;/a&gt;&lt;/p&gt;</code>
+                <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-success py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Success focus&lt;/a&gt;&lt;/p&gt;</code>
 
-    <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Danger focus&lt;/a&gt;&lt;/p&gt;</code>
+                <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Danger focus&lt;/a&gt;&lt;/p&gt;</code>
 
-    <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-warning py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Warning focus&lt;/a&gt;&lt;/p&gt;</code>
+                <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-warning py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Warning focus&lt;/a&gt;&lt;/p&gt;</code>
 
-    <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-info py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Info focus&lt;/a&gt;&lt;/p&gt;</code>
+                <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-info py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Info focus&lt;/a&gt;&lt;/p&gt;</code>
 
-    <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Light focus&lt;/a&gt;&lt;/p&gt;</code>
+                <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Light focus&lt;/a&gt;&lt;/p&gt;</code>
 
-    <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-dark py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Dark focus&lt;/a&gt;&lt;/p&gt;</code>/pre>
+                <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;d-inline-flex focus-ring focus-ring-dark py-1 px-2 text-decoration-none border rounded-2&quot;&gt;Dark focus&lt;/a&gt;&lt;/p&gt;</code>/pre>
+                                    </div>
+                                </div><!-- end card-body -->
+                            </div><!-- end card -->
                         </div>
-                    </div><!-- end card-body -->
-                </div><!-- end card -->
-            </div>
-            <!--end col-->
-        </div>
-        <!--end row-->
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
 @endsection

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Typography')
 @push('vendor-script')
     <!-- prismjs plugin -->
     <script src="{{ asset('') }}assets/libs/prismjs/prism.js"></script>
@@ -7,21 +7,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Typography</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Base UI</a></li>
-                        <li class="breadcrumb-item active">Typography</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Base UI'])
     <!-- end page title -->
 
     <div class="row">
@@ -789,7 +775,8 @@ This text should overflow the parent.
 
                 <div class="card-body">
                     <p class="text-muted">Use <code>fs-1</code>, <code>fs-2</code>, <code>fs-3</code>, <code>fs-4</code>,
-                        <code>fs-5</code>, or <code>fs-6</code>, class to change the font-size respectively.</p>
+                        <code>fs-5</code>, or <code>fs-6</code>, class to change the font-size respectively.
+                    </p>
                     <div class="live-preview">
                         <p class="fs-1">.fs-1 text</p>
                         <p class="fs-2">.fs-2 text</p>
@@ -834,7 +821,8 @@ This text should overflow the parent.
 
                 <div class="card-body">
                     <p class="text-muted">Use <code>fst-</code>with modifier class to change font-style and Use
-                        <code>fw-</code>with modifier class to change font-weight.</p>
+                        <code>fw-</code>with modifier class to change font-weight.
+                    </p>
 
                     <div class="live-preview">
                         <p class="fw-bold">Bold text.</p>
@@ -931,7 +919,8 @@ This text should overflow the parent.
 
                 <div class="card-body">
                     <p class="text-muted">Use <code>text-lowercase</code>, <code>text-uppercase</code>, or
-                        <code>text-capitalize</code> to transform the text.</p>
+                        <code>text-capitalize</code> to transform the text.
+                    </p>
                     <div class="live-preview">
                         <p class="text-lowercase">Lowercased text.</p>
                         <p class="text-uppercase">Uppercased text.</p>
@@ -965,7 +954,8 @@ This text should overflow the parent.
                 <div class="card-body">
                     <p class="text-muted">Use <code>text-decoration-underline</code>,
                         <code>text-decoration-line-through</code>, or <code>text-decoration-none</code> class to decorate
-                        text in components respectively.</p>
+                        text in components respectively.
+                    </p>
 
                     <div class="live-preview">
                         <p class="text-decoration-underline">This text has a line underneath it.</p>
