@@ -13,18 +13,18 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('') }}assets/images/favicon.ico">
 
     <!-- Layout config Js -->
-    <script src="assets/js/layout.js"></script>
+    <script src="{{ asset('') }}assets/js/layout.js"></script>
     <!-- Bootstrap Css -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
-    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}assets/css/custom.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -39,7 +39,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-4 text-center">
                         <div class="error-500 position-relative">
-                            <img src="assets/images/error500.png" alt=""
+                            <img src="{{ asset('') }}assets/images/error500.png" alt=""
                                 class="img-fluid error-500-img error-img" />
                             <h1 class="title text-muted">500</h1>
                         </div>
