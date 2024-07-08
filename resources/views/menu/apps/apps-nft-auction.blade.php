@@ -1,26 +1,12 @@
 @extends('layouts.master')
-
+@section('title', 'Live Auction')
 @push('page-script')
     <script src="{{ asset('') }}assets/js/pages/apps-nft-auction.init.js"></script>
 @endpush
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Live Auction</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">NFT Marketplace</a></li>
-                        <li class="breadcrumb-item active">Live Auction</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'App', 'level_2' => 'NFT Marketplace'])
     <!-- end page title -->
 
     <div class="row">

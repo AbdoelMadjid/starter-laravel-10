@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Chat')
 @push('vendor-style')
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/glightbox/css/glightbox.min.css">
 @endpush

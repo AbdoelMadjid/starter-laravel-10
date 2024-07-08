@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Kanban Board')
 @push('vendor-style')
     <!-- Dragula css -->
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/dragula/dragula.min.css" />
@@ -18,21 +18,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Kanban Board</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Tasks</a></li>
-                        <li class="breadcrumb-item active">Kanban Board</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'App', 'level_2' => 'Task'])
     <!-- end page title -->
 
     <div class="card">
@@ -56,23 +42,28 @@
                     <div class="avatar-group" id="newMembar">
                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                             data-bs-trigger="hover" data-bs-placement="top" title="Nancy">
-                            <img src="{{ asset('') }}assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xs">
+                            <img src="{{ asset('') }}assets/images/users/avatar-5.jpg" alt=""
+                                class="rounded-circle avatar-xs">
                         </a>
                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                             data-bs-trigger="hover" data-bs-placement="top" title="Frank">
-                            <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt="" class="rounded-circle avatar-xs">
+                            <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
+                                class="rounded-circle avatar-xs">
                         </a>
                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                             data-bs-trigger="hover" data-bs-placement="top" title="Tonya">
-                            <img src="{{ asset('') }}assets/images/users/avatar-10.jpg" alt="" class="rounded-circle avatar-xs">
+                            <img src="{{ asset('') }}assets/images/users/avatar-10.jpg" alt=""
+                                class="rounded-circle avatar-xs">
                         </a>
                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                             data-bs-trigger="hover" data-bs-placement="top" title="Thomas">
-                            <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt="" class="rounded-circle avatar-xs">
+                            <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
+                                class="rounded-circle avatar-xs">
                         </a>
                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                             data-bs-trigger="hover" data-bs-placement="top" title="Herbert">
-                            <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
+                            <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
+                                class="rounded-circle avatar-xs">
                         </a>
                         <a href="#addmemberModal" data-bs-toggle="modal" class="avatar-group-item">
                             <div class="avatar-xs">
@@ -331,8 +322,8 @@
                                     <div class="avatar-group">
                                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                             data-bs-trigger="hover" data-bs-placement="top" title="Tonya">
-                                            <img src="{{ asset('') }}assets/images/users/avatar-10.jpg" alt=""
-                                                class="rounded-circle avatar-xxs">
+                                            <img src="{{ asset('') }}assets/images/users/avatar-10.jpg"
+                                                alt="" class="rounded-circle avatar-xxs">
                                         </a>
                                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                             data-bs-trigger="hover" data-bs-placement="top" title="Frank">
@@ -583,8 +574,8 @@
                                     <div class="avatar-group">
                                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                             data-bs-trigger="hover" data-bs-placement="top" title="Tonya">
-                                            <img src="{{ asset('') }}assets/images/users/avatar-10.jpg" alt=""
-                                                class="rounded-circle avatar-xxs">
+                                            <img src="{{ asset('') }}assets/images/users/avatar-10.jpg"
+                                                alt="" class="rounded-circle avatar-xxs">
                                         </a>
                                         <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                             data-bs-trigger="hover" data-bs-placement="top" title="Donald">
@@ -966,9 +957,8 @@
                                             <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
                                                 class="rounded-circle avatar-xxs">
                                         </a>
-                                        <a href="javascript: void(0);" class="avatar-group-item"
-                                            data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top"
-                                            title="Tonya">
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
+                                            data-bs-trigger="hover" data-bs-placement="top" title="Tonya">
                                             <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
                                                 class="rounded-circle avatar-xxs">
                                         </a>
@@ -1066,14 +1056,14 @@
                                         <a href="javascript: void(0);" class="avatar-group-item"
                                             data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top"
                                             title="Frank">
-                                            <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                class="rounded-circle avatar-xxs">
+                                            <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                alt="" class="rounded-circle avatar-xxs">
                                         </a>
                                         <a href="javascript: void(0);" class="avatar-group-item"
                                             data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top"
                                             title="Herbert">
-                                            <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                class="rounded-circle avatar-xxs">
+                                            <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                alt="" class="rounded-circle avatar-xxs">
                                         </a>
                                     </div>
                                 </div>
@@ -1273,8 +1263,8 @@
                                                 <label class="form-check-label d-flex align-items-center"
                                                     for="anna-adame">
                                                     <span class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg" alt=""
-                                                            class="avatar-xxs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-1.jpg"
+                                                            alt="" class="avatar-xxs rounded-circle" />
                                                     </span>
                                                     <span class="flex-grow-1 ms-2">
                                                         Anna Adame
@@ -1289,8 +1279,8 @@
                                                 <label class="form-check-label d-flex align-items-center"
                                                     for="frank-hook">
                                                     <span class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                            class="avatar-xxs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                            alt="" class="avatar-xxs rounded-circle" />
                                                     </span>
                                                     <span class="flex-grow-1 ms-2">
                                                         Frank Hook
@@ -1305,8 +1295,8 @@
                                                 <label class="form-check-label d-flex align-items-center"
                                                     for="alexis-clarke">
                                                     <span class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                            class="avatar-xxs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                            alt="" class="avatar-xxs rounded-circle" />
                                                     </span>
                                                     <span class="flex-grow-1 ms-2">
                                                         Alexis Clarke
@@ -1321,8 +1311,8 @@
                                                 <label class="form-check-label d-flex align-items-center"
                                                     for="herbert-stokes">
                                                     <span class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                            class="avatar-xxs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                            alt="" class="avatar-xxs rounded-circle" />
                                                     </span>
                                                     <span class="flex-grow-1 ms-2">
                                                         Herbert Stokes
@@ -1337,8 +1327,8 @@
                                                 <label class="form-check-label d-flex align-items-center"
                                                     for="michael-morris">
                                                     <span class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                            class="avatar-xxs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                            alt="" class="avatar-xxs rounded-circle" />
                                                     </span>
                                                     <span class="flex-grow-1 ms-2">
                                                         Michael Morris
@@ -1353,8 +1343,8 @@
                                                 <label class="form-check-label d-flex align-items-center"
                                                     for="nancy-martino">
                                                     <span class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-5.jpg" alt=""
-                                                            class="avatar-xxs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-5.jpg"
+                                                            alt="" class="avatar-xxs rounded-circle" />
                                                     </span>
                                                     <span class="flex-grow-1 ms-2">
                                                         Nancy Martino
@@ -1369,8 +1359,8 @@
                                                 <label class="form-check-label d-flex align-items-center"
                                                     for="thomas-taylor">
                                                     <span class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                            class="avatar-xxs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                            alt="" class="avatar-xxs rounded-circle" />
                                                     </span>
                                                     <span class="flex-grow-1 ms-2">
                                                         Thomas Taylor
@@ -1385,8 +1375,8 @@
                                                 <label class="form-check-label d-flex align-items-center"
                                                     for="tonya-noble">
                                                     <span class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-10.jpg" alt=""
-                                                            class="avatar-xxs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-10.jpg"
+                                                            alt="" class="avatar-xxs rounded-circle" />
                                                     </span>
                                                     <span class="flex-grow-1 ms-2">
                                                         Tonya Noble

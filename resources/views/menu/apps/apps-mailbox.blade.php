@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Maillbox')
 @push('vendor-script')
     <!--ckeditor js-->
     <script src="{{ asset('') }}assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>

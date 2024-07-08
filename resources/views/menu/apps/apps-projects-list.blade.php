@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'List')
 @push('page-script')
     <!-- project list init -->
     <script src="{{ asset('') }}assets/js/pages/project-list.init.js"></script>
@@ -7,22 +7,9 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Project List</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Projects</a></li>
-                        <li class="breadcrumb-item active">Project List</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'App', 'level_2' => 'Project'])
     <!-- end page title -->
+
 
     <div class="row g-4 mb-3">
         <div class="col-sm-auto">

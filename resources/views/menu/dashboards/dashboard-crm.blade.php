@@ -1,26 +1,12 @@
 @extends('layouts.master')
-
+@section('title', 'CRM')
 @push('page-script')
     <script src="{{ asset('') }}assets/js/pages/dashboard-crm.init.js"></script>
 @endpush
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">CRM</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
-                        <li class="breadcrumb-item active">CRM</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Dashboards'])
     <!-- end page title -->
 
     <div class="row">
@@ -138,8 +124,8 @@
                     <h4 class="card-title mb-0 flex-grow-1">Deal Type</h4>
                     <div class="flex-shrink-0">
                         <div class="dropdown card-header-dropdown">
-                            <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <a class="text-reset dropdown-btn" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
                                 <span class="fw-semibold text-uppercase fs-12">Sort by: </span><span
                                     class="text-muted">Monthly<i class="mdi mdi-chevron-down ms-1"></i></span>
                             </a>

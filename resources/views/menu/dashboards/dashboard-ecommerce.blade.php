@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title', 'Dashboard Ecommerce')
 
 @push('vendor-style')
     <link href="{{ asset('') }}assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" />

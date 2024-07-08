@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Project Overview')
 @push('page-script')
     <script src="{{ asset('') }}assets/js/pages/project-overview.init.js"></script>
 @endpush
@@ -16,7 +16,8 @@
                                     <div class="col-md-auto">
                                         <div class="avatar-md">
                                             <div class="avatar-title bg-white rounded-circle">
-                                                <img src="{{ asset('') }}assets/images/brands/slack.png" alt="" class="avatar-xs">
+                                                <img src="{{ asset('') }}assets/images/brands/slack.png" alt=""
+                                                    class="avatar-xs">
                                             </div>
                                         </div>
                                     </div>
@@ -269,8 +270,8 @@
                                     <div data-simplebar style="height: 300px;" class="px-3 mx-n3 mb-2">
                                         <div class="d-flex mb-4">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                    class="avatar-xs rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="avatar-xs rounded-circle" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-13">Joseph Parker <small class="text-muted ms-2">20 Dec
@@ -281,8 +282,8 @@
                                                         class="mdi mdi-reply"></i> Reply</a>
                                                 <div class="d-flex mt-4">
                                                     <div class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-10.jpg" alt=""
-                                                            class="avatar-xs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-10.jpg"
+                                                            alt="" class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1 ms-3">
                                                         <h5 class="fs-13">Alexis Clarke <small class="text-muted ms-2">22
@@ -299,8 +300,8 @@
                                         </div>
                                         <div class="d-flex mb-4">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                    class="avatar-xs rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                    alt="" class="avatar-xs rounded-circle" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-13">Donald Palmer <small class="text-muted ms-2">24 Dec
@@ -315,8 +316,8 @@
                                         </div>
                                         <div class="d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-10.jpg" alt=""
-                                                    class="avatar-xs rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-10.jpg"
+                                                    alt="" class="avatar-xs rounded-circle" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-13">Alexis Clarke <small class="text-muted ms-2">26 min
@@ -328,20 +329,20 @@
                                                     Customer Support and more.</p>
                                                 <div class="row g-2 mb-3">
                                                     <div class="col-lg-1 col-sm-2 col-6">
-                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
-                                                            class="img-fluid rounded">
+                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                                            alt="" class="img-fluid rounded">
                                                     </div>
                                                     <div class="col-lg-1 col-sm-2 col-6">
-                                                        <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
-                                                            class="img-fluid rounded">
+                                                        <img src="{{ asset('') }}assets/images/small/img-5.jpg"
+                                                            alt="" class="img-fluid rounded">
                                                     </div>
                                                 </div>
                                                 <a href="javascript: void(0);" class="badge text-muted bg-light"><i
                                                         class="mdi mdi-reply"></i> Reply</a>
                                                 <div class="d-flex mt-4">
                                                     <div class="flex-shrink-0">
-                                                        <img src="{{ asset('') }}assets/images/users/avatar-6.jpg" alt=""
-                                                            class="avatar-xs rounded-circle" />
+                                                        <img src="{{ asset('') }}assets/images/users/avatar-6.jpg"
+                                                            alt="" class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1 ms-3">
                                                         <h5 class="fs-13">Donald Palmer <small class="text-muted ms-2">8
@@ -411,8 +412,8 @@
                                         <div class="vstack gap-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                        class="img-fluid rounded-circle">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                        alt="" class="img-fluid rounded-circle">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h5 class="fs-13 mb-0"><a href="#"
@@ -482,8 +483,8 @@
                                             <!-- end member item -->
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                        class="img-fluid rounded-circle">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                        alt="" class="img-fluid rounded-circle">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h5 class="fs-13 mb-0"><a href="#"
@@ -517,8 +518,8 @@
                                             <!-- end member item -->
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                        class="img-fluid rounded-circle">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                        alt="" class="img-fluid rounded-circle">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h5 class="fs-13 mb-0"><a href="#"
@@ -589,8 +590,8 @@
                                             <!-- end member item -->
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                        class="img-fluid rounded-circle">
+                                                    <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                        alt="" class="img-fluid rounded-circle">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h5 class="fs-13 mb-0"><a href="#"
@@ -1121,14 +1122,14 @@
                                             <a href="javascript: void(0);" class="avatar-group-item"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Christi">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                    class="rounded-circle avatar-xs" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                    alt="" class="rounded-circle avatar-xs" />
                                             </a>
                                             <a href="javascript: void(0);" class="avatar-group-item"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Frank Hook">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                    class="rounded-circle avatar-xs" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                    alt="" class="rounded-circle avatar-xs" />
                                             </a>
                                             <a href="javascript: void(0);" class="avatar-group-item"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
@@ -1166,18 +1167,18 @@
                                             <div class="col-xxl-4">
                                                 <div class="row border border-dashed gx-2 p-2 mb-2">
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-2.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <!--end col-->
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-3.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <!--end col-->
                                                     <div class="col-4">
-                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ asset('') }}assets/images/small/img-4.jpg"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <!--end col-->
                                                 </div>
@@ -1319,8 +1320,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1452,8 +1453,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-3.jpg"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1518,8 +1519,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-8.jpg"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1651,8 +1652,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-4.jpg" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-4.jpg"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1784,8 +1785,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-7.jpg"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1850,8 +1851,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ asset('') }}assets/images/users/avatar-5.jpg" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ asset('') }}assets/images/users/avatar-5.jpg"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">

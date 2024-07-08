@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'List')
 @push('vendor-style')
     <!-- Sweet Alert css-->
     <link href="{{ asset('') }}assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
@@ -22,21 +22,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Tasks List</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Tasks</a></li>
-                        <li class="breadcrumb-item active">Tasks List</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'App', 'level_2' => 'Task'])
     <!-- end page title -->
 
     <div class="row">
@@ -46,8 +32,8 @@
                     <div class="d-flex justify-content-between">
                         <div>
                             <p class="fw-medium text-muted mb-0">Total Tasks</p>
-                            <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value"
-                                    data-target="234">0</span>k</h2>
+                            <h2 class="mt-4 ff-secondary fw-semibold"><span class="counter-value" data-target="234">0</span>k
+                            </h2>
                             <p class="mb-0 text-muted"><span class="badge bg-light text-success mb-0"> <i
                                         class="ri-arrow-up-line align-middle"></i> 17.32 %</span> vs. previous month</p>
                         </div>

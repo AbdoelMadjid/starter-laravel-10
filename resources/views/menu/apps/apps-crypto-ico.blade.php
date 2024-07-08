@@ -1,22 +1,8 @@
 @extends('layouts.master')
-
+@section('title', 'ICOs List')
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">ICO List</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Crypto</a></li>
-                        <li class="breadcrumb-item active">ICO List</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'App', 'level_2' => 'Crypto'])
     <!-- end page title -->
 
     <div class="row row-cols-xxl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1">

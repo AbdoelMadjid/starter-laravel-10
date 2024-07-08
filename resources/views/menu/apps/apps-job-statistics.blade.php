@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Statistics')
 @push('vendor-script')
     <!-- apexcharts -->
     <script src="{{ asset('') }}assets/libs/apexcharts/apexcharts.min.js"></script>
@@ -12,21 +12,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Statistics</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Jobs</a></li>
-                        <li class="breadcrumb-item active">Statistics</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'App', 'level_2' => 'Job'])
     <!-- end page title -->
 
     <div class="row">

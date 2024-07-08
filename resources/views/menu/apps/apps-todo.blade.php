@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'To Do')
 @push('vendor-style')
     <!-- Dragula css -->
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/dragula/dragula.min.css" />

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Job Dashboard')
 @push('vendor-style')
     <!-- gridjs css -->
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/gridjs/theme/mermaid.min.css">
@@ -21,21 +21,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Job Dashboard</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
-                        <li class="breadcrumb-item active">Job Dashboard</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Dashboards'])
     <!-- end page title -->
 
     <div class="row">

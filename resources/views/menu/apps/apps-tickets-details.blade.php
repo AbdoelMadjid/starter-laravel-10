@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Tickets Details')
 @push('page-script')
     <!-- ticketdetail init js -->
     <script src="{{ asset('') }}assets/js/pages/ticketdetail.init.js"></script>
