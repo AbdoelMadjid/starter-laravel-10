@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Profile Setting')
 @push('page-script')
     <!-- profile-setting init js -->
     <script src="{{ asset('') }}assets/js/pages/profile-setting.init.js"></script>

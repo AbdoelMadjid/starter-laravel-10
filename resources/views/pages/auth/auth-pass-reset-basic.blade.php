@@ -53,7 +53,7 @@
                                 </div>
                             @endif
                             <div class="p-2">
-                                <form action="{{ route('password.forgot') }}" method="POST">
+                                <form action="auth-pass-change-basic" method="POST">
                                     @csrf
                                     <div class="mb-4">
                                         <label for="email" class="form-label">Email</label>

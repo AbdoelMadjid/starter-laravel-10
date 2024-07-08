@@ -19,12 +19,13 @@ use App\Http\Controllers\Auth\ResetPasswordController;
 
 // Dashboard
 Route::get('/', [LoginController::class, 'index'])->name('login')->middleware('guest');
-Route::post('/', [LoginController::class, 'authenticate'])->name('login')->middleware('guest');
+Route::post('/', [LoginController::class, 'authenticate'])->name('signin')->middleware('guest');
 Route::get('/logout', [LogoutController::class, 'logout'])->name('logout')->middleware('auth');
 
+Route::view('/dashboard', 'dashboard')->middleware('auth');
 Route::view('/dashboard-analytics', 'menu.dashboards.dashboard-analytics');
 Route::view('/dashboard-crm', 'menu.dashboards.dashboard-crm');
-Route::view('/dashboard-ecommerce', 'menu.dashboards.dashboard-ecommerce')->middleware('auth');
+Route::view('/dashboard-ecommerce', 'menu.dashboards.dashboard-ecommerce');
 Route::view('/dashboard-crypto', 'menu.dashboards.dashboard-crypto');
 Route::view('/dashboard-job', 'menu.dashboards.dashboard-job');
 Route::view('/dashboard-nft', 'menu.dashboards.dashboard-nft');
@@ -107,11 +108,13 @@ Route::view('/auth-signin-basic', 'pages.auth.auth-signin-basic');
 Route::view('/auth-signin-cover', 'pages.auth.auth-signin-cover');
 Route::view('/auth-signup-basic', 'pages.auth.auth-signup-basic');
 Route::view('/auth-signup-cover', 'pages.auth.auth-signup-cover');
-Route::get('/auth-pass-reset-basic', [ForgotPasswordController::class, 'index'])->name('password.forgot')->middleware('guest');
-Route::post('/auth-pass-reset-basic', [ForgotPasswordController::class, 'forgot'])->name('password.forgot')->middleware('guest');
+Route::view('/auth-pass-reset-basic', 'pages.auth.auth-pass-reset-basic');
 Route::view('/auth-pass-reset-cover', 'pages.auth.auth-pass-reset-cover');
-Route::get('/auth-pass-change-basic', [ResetPasswordController::class, 'index'])->name('password.reset')->middleware('guest');
-Route::post('/auth-pass-change-basic', [ResetPasswordController::class, 'reset'])->name('password.reset')->middleware('guest');
+//Route::get('/auth-pass-reset-basic', [ForgotPasswordController::class, 'index'])->name('password.forgot')->middleware('guest');
+//Route::post('/auth-pass-reset-basic', [ForgotPasswordController::class, 'forgot'])->name('password.forgot')->middleware('guest');
+//Route::get('/auth-pass-change-basic', [ResetPasswordController::class, 'index'])->name('password.reset')->middleware('guest');
+//Route::post('/auth-pass-change-basic', [ResetPasswordController::class, 'reset'])->name('password.reset')->middleware('guest');
+Route::view('/auth-pass-change-basic', 'pages.auth.auth-pass-change-basic');
 Route::view('/auth-pass-change-cover', 'pages.auth.auth-pass-change-cover');
 Route::view('/auth-lockscreen-basic', 'pages.auth.auth-lockscreen-basic');
 Route::view('/auth-lockscreen-cover', 'pages.auth.auth-lockscreen-cover');

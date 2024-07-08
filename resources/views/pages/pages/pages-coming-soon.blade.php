@@ -1,5 +1,5 @@
 @extends('layouts.auth.master')
-
+@section('title', 'Starter')
 @push('page-script')
     <!-- particles js -->
     <script src="{{ asset('') }}assets/libs/particles.js/particles.js"></script>

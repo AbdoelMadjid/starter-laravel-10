@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Profile')
 @push('vendor-style')
     <!-- swiper css -->
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/swiper/swiper-bundle.min.css">

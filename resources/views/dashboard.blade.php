@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Starter')
+@section('title', 'Dashboard')
 @section('content')
     <!-- start page title -->
-    @include('layouts.breadcrumb', ['level_1' => 'Pages'])
+    @include('layouts.breadcrumb')
     <!-- end page title -->
 @endsection
