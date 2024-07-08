@@ -57,7 +57,7 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">DropzoneJS is an open source library that provides dragânâdrop file uploads
+                    <p class="text-muted">DropzoneJS is an open source library that provides drag’n’drop file uploads
                         with image previews.</p>
 
                     <div class="dropzone">

@@ -410,7 +410,7 @@ Check me out
                     <p class="text-muted">Create horizontal forms with the grid by adding the <code>row</code> class to
                         form groups and using the <code>col-*-*</code> class to specify the width of your labels and
                         controls. Be sure to add <code>col-form-label</code> class to your <code>&lt;label&gt;</code>s as
-                        well so theyâre vertically centered with their associated form controls.</p>
+                        well so they’re vertically centered with their associated form controls.</p>
                     <div class="live-preview">
                         <form action="javascript:void(0);">
                             <div class="row mb-3">
@@ -1018,7 +1018,7 @@ Check me out
                     </div>
                 </div><!-- end card header -->
                 <div class="card-body">
-                    <p class="text-muted">Use <code>form-floating</code> class to enable floating labels with Bootstrapâs
+                    <p class="text-muted">Use <code>form-floating</code> class to enable floating labels with Bootstrap’s
                         textual form fields.</p>
                     <div class="live-preview">
                         <form action="#">

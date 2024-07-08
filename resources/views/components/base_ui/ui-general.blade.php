@@ -177,7 +177,7 @@ Tooltip with HTML
 
                 <div class="card-body">
 
-                    <p class="text-muted">Indicate the current pageâs location within a navigational hierarchy</p>
+                    <p class="text-muted">Indicate the current page’s location within a navigational hierarchy</p>
 
                     <div class="live-preview">
                         <nav aria-label="breadcrumb">
@@ -283,7 +283,7 @@ Tooltip with HTML
                                     <ul class="pagination">
                                         <li class="page-item">
                                             <a class="page-link" href="#" aria-label="Previous">
-                                                â &nbsp; Prev
+                                                ← &nbsp; Prev
                                             </a>
                                         </li>
                                         <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -291,7 +291,7 @@ Tooltip with HTML
                                         <li class="page-item"><a class="page-link" href="#">3</a></li>
                                         <li class="page-item">
                                             <a class="page-link" href="#" aria-label="Next">
-                                                Next &nbsp; â
+                                                Next &nbsp; →
                                             </a>
                                         </li>
                                     </ul>
@@ -310,7 +310,7 @@ Tooltip with HTML
                                     <nav aria-label="...">
                                         <ul class="pagination">
                                             <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">â &nbsp; Prev</a>
+                                                <a class="page-link" href="#" tabindex="-1">← &nbsp; Prev</a>
                                             </li>
                                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                                             <li class="page-item active">
@@ -319,7 +319,7 @@ Tooltip with HTML
                                             </li>
                                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                                             <li class="page-item">
-                                                <a class="page-link" href="#">Next &nbsp; â</a>
+                                                <a class="page-link" href="#">Next &nbsp; →</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -359,13 +359,13 @@ Tooltip with HTML
                                     <nav aria-label="...">
                                         <ul class="pagination pagination-lg">
                                             <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">â &nbsp; Prev</a>
+                                                <a class="page-link" href="#" tabindex="-1">← &nbsp; Prev</a>
                                             </li>
                                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                                             <li class="page-item">
-                                                <a class="page-link" href="#">Next &nbsp; â</a>
+                                                <a class="page-link" href="#">Next &nbsp; →</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -374,13 +374,13 @@ Tooltip with HTML
                                     <nav aria-label="...">
                                         <ul class="pagination pagination-sm">
                                             <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">â &nbsp; Prev</a>
+                                                <a class="page-link" href="#" tabindex="-1">← &nbsp; Prev</a>
                                             </li>
                                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                                             <li class="page-item">
-                                                <a class="page-link" href="#">Next &nbsp; â</a>
+                                                <a class="page-link" href="#">Next &nbsp; →</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -394,20 +394,21 @@ Tooltip with HTML
 
                                     <p class="text-muted">Use <code>justify-content-start</code>,
                                         <code>justify-content-start</code>, or <code>justify-content-start</code>, class to
-                                        pagination class to change the alignment of pagination respectively.</p>
+                                        pagination class to change the alignment of pagination respectively.
+                                    </p>
                                     <!-- Pagination Alignment -->
 
                                     <!-- Center Alignment -->
                                     <nav aria-label="Page navigation example">
                                         <ul class="pagination justify-content-center">
                                             <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">â &nbsp; Prev</a>
+                                                <a class="page-link" href="#" tabindex="-1">← &nbsp; Prev</a>
                                             </li>
                                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                                             <li class="page-item">
-                                                <a class="page-link" href="#">Next &nbsp; â</a>
+                                                <a class="page-link" href="#">Next &nbsp; →</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -416,13 +417,13 @@ Tooltip with HTML
                                     <nav aria-label="Page navigation example">
                                         <ul class="pagination justify-content-end">
                                             <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">â &nbsp; Prev</a>
+                                                <a class="page-link" href="#" tabindex="-1">← &nbsp; Prev</a>
                                             </li>
                                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                                             <li class="page-item">
-                                                <a class="page-link" href="#">Next &nbsp; â</a>
+                                                <a class="page-link" href="#">Next &nbsp; →</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -440,7 +441,7 @@ Tooltip with HTML
                                     <!-- Custom Separated Pagination Large -->
                                     <ul class="pagination pagination-lg pagination-separated">
                                         <li class="page-item disabled">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">←</a>
                                         </li>
                                         <li class="page-item">
                                             <a href="#" class="page-link">1</a>
@@ -458,14 +459,14 @@ Tooltip with HTML
                                             <a href="#" class="page-link">5</a>
                                         </li>
                                         <li class="page-item">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">→</a>
                                         </li>
                                     </ul>
 
                                     <!-- Pagination rounded -->
                                     <ul class="pagination pagination-separated">
                                         <li class="page-item disabled">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">←</a>
                                         </li>
                                         <li class="page-item">
                                             <a href="#" class="page-link">1</a>
@@ -483,14 +484,14 @@ Tooltip with HTML
                                             <a href="#" class="page-link">5</a>
                                         </li>
                                         <li class="page-item">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">→</a>
                                         </li>
                                     </ul>
 
                                     <!-- Custom Separated Pagination Large -->
                                     <ul class="pagination pagination-sm pagination-separated">
                                         <li class="page-item disabled">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">←</a>
                                         </li>
                                         <li class="page-item">
                                             <a href="#" class="page-link">1</a>
@@ -508,7 +509,7 @@ Tooltip with HTML
                                             <a href="#" class="page-link">5</a>
                                         </li>
                                         <li class="page-item">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">→</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -522,7 +523,7 @@ Tooltip with HTML
                                     <!-- Pagination rounded -->
                                     <ul class="pagination pagination-lg pagination-rounded">
                                         <li class="page-item disabled">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">←</a>
                                         </li>
                                         <li class="page-item">
                                             <a href="#" class="page-link">1</a>
@@ -540,14 +541,14 @@ Tooltip with HTML
                                             <a href="#" class="page-link">5</a>
                                         </li>
                                         <li class="page-item">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">→</a>
                                         </li>
                                     </ul>
 
                                     <!-- Pagination rounded -->
                                     <ul class="pagination pagination-rounded">
                                         <li class="page-item disabled">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">←</a>
                                         </li>
                                         <li class="page-item">
                                             <a href="#" class="page-link">1</a>
@@ -565,14 +566,14 @@ Tooltip with HTML
                                             <a href="#" class="page-link">5</a>
                                         </li>
                                         <li class="page-item">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">→</a>
                                         </li>
                                     </ul>
 
                                     <!-- Pagination rounded -->
                                     <ul class="pagination pagination-sm pagination-rounded">
                                         <li class="page-item disabled">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">←</a>
                                         </li>
                                         <li class="page-item">
                                             <a href="#" class="page-link">1</a>
@@ -590,7 +591,7 @@ Tooltip with HTML
                                             <a href="#" class="page-link">5</a>
                                         </li>
                                         <li class="page-item">
-                                            <a href="#" class="page-link">â</a>
+                                            <a href="#" class="page-link">→</a>
                                         </li>
                                     </ul>
                                 </div>

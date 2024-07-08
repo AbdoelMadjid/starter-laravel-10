@@ -638,7 +638,7 @@ Erica Kernan
                                 </div>
                                 <p class="list-text mb-0">Just like in the image where we talked about using multiple
                                     fonts, you can see that the background in this graphic design is blurred. Whenever you
-                                    put text on top of an image, itâs important that your viewers can understand the text,
+                                    put text on top of an image, it’s important that your viewers can understand the text,
                                     and sometimes that means applying a gaussian readable.</p>
                             </a>
                         </div>
@@ -786,7 +786,7 @@ Start making a presentation &lt;span class=&quot;badge bg-success&quot;&gt;High&
                     </div>
                 </div><!-- end card header -->
                 <div class="card-body">
-                    <p class="text-muted">Use Bootstrapâs checkboxes within list group items and customize as needed.
+                    <p class="text-muted">Use Bootstrap’s checkboxes within list group items and customize as needed.
                     </p>
                     <div class="live-preview">
                         <div class="list-group">
@@ -854,7 +854,7 @@ Wrong UX/UI Solution
                     </div>
                 </div><!-- end card header -->
                 <div class="card-body">
-                    <p class="text-muted">Use Bootstrapâs radios within list group items and customize as needed. </p>
+                    <p class="text-muted">Use Bootstrap’s radios within list group items and customize as needed. </p>
                     <div class="live-preview">
                         <div class="list-group">
                             <label class="list-group-item">

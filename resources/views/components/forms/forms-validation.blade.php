@@ -44,7 +44,7 @@
                 <div class="card-body">
                     <p class="text-muted">Not interested in custom validation feedback messages or writing JavaScript to
                         change form behaviors? All good, you can use the browser defaults. Try submitting the form below.
-                        Depending on your browser and OS, youâll see a slightly different style of feedback.While these
+                        Depending on your browser and OS, you’ll see a slightly different style of feedback.While these
                         feedback styles cannot be styled with CSS, you can still customize the feedback text through
                         JavaScript.</p>
 
@@ -165,12 +165,13 @@ Agree to terms and conditions
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">For custom Bootstrap form validation messages, youâll need to add the
+                    <p class="text-muted">For custom Bootstrap form validation messages, you’ll need to add the
                         <code>novalidate</code> boolean attribute to your <code>&lt;form&gt;</code>. This disables the
                         browser default feedback tooltips, but still provides access to the form validation APIs in
                         JavaScript. Try to submit the form below; our JavaScript will intercept the submit button and relay
-                        feedback to you. When attempting to submit, youâll see the <code>:invalid</code> and
-                        <code>:valid</code> styles applied to your form controls.</p>
+                        feedback to you. When attempting to submit, you’ll see the <code>:invalid</code> and
+                        <code>:valid</code> styles applied to your form controls.
+                    </p>
 
                     <div class="live-preview">
                         <form class="row g-3 needs-validation" novalidate>
@@ -333,7 +334,8 @@ You must agree before submitting.
 
                     <div class="card-body">
                         <p class="text-muted">Block-level or inline-level form text can be created using
-                            <code>.form-text</code>.</p>
+                            <code>.form-text</code>.
+                        </p>
 
                         <div class="live-preview">
                             <form class="was-validated">
@@ -459,7 +461,8 @@ Please enter a message in the textarea.
                             <code>.{valid|invalid}-feedback</code> classes for <code>.{valid|invalid}-tooltip</code> classes
                             to display validation feedback in a styled tooltip. Be sure to have a parent with
                             <code>position: relative</code> on it for tooltip positioning. In the example below, our column
-                            classes have this already, but your project may require an alternative setup.</p>
+                            classes have this already, but your project may require an alternative setup.
+                        </p>
 
                         <div class="live-preview">
                             <form class="row g-3 needs-validation" novalidate>

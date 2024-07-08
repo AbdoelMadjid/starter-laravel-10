@@ -589,7 +589,7 @@
                         <div class="col-sm-8">
                             <div class="p-3">
                                 <p class="fs-16 lh-base">Upgrade your plan from a <span class="fw-semibold">Free
-                                        trial</span>, to âPremium Planâ <i class="mdi mdi-arrow-right"></i></p>
+                                        trial</span>, to ‘Premium Plan’ <i class="mdi mdi-arrow-right"></i></p>
                                 <div class="mt-3">
                                     <a href="pages-pricing.html" class="btn btn-success">Upgrade Account!</a>
                                 </div>
@@ -623,7 +623,7 @@
                         <div class="col-sm-8">
                             <div class="p-3">
                                 <p class="fs-16 lh-base text-white">Upgrade your plan from a <span
-                                        class="fw-semibold">Free trial</span>, to âPremium Planâ <i
+                                        class="fw-semibold">Free trial</span>, to ‘Premium Plan’ <i
                                         class="mdi mdi-arrow-right"></i></p>
                                 <div class="mt-3">
                                     <a href="pages-pricing.html" class="btn btn-info">Upgrade Account!</a>

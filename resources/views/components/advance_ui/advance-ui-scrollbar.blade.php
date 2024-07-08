@@ -176,7 +176,7 @@
                                             <div class="flex-grow-1 text-muted">
                                                 <h6 class="mb-1 fs-14">Angela Bernier</h6>
                                                 <p class="mb-0">Answered to your comment on the cash flow forecast's graph
-                                                    ð.</p>
+                                                    🔔.</p>
                                             </div>
 
                                             <div class="flex-shrink-0 ms-2">

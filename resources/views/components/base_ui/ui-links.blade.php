@@ -154,7 +154,7 @@
                 </div><!-- end card header -->
                 <div class="card-body">
                     <p class="text-muted">Change the alpha opacity of the link <code>rgba()</code> color value with
-                        utilities. Please be aware that changes to a colorâs opacity can lead to links with <a
+                        utilities. Please be aware that changes to a color’s opacity can lead to links with <a
                             href="https://getbootstrap.com/docs/5.3/getting-started/accessibility/#color-contrast"
                             target="_blank"><em>insufficient</em> contrast</a>.</p>
                     <div class="live-preview">
@@ -228,7 +228,7 @@
                     </div>
                 </div><!-- end card header -->
                 <div class="card-body">
-                    <p class="text-muted">Change the underlineâs color independent of the link text color.</p>
+                    <p class="text-muted">Change the underline’s color independent of the link text color.</p>
                     <div class="live-preview">
                         <p><a href="#" class="text-decoration-underline link-underline-primary">Primary
                                 underline</a></p>
@@ -279,7 +279,7 @@
                     </div>
                 </div><!-- end card header -->
                 <div class="card-body">
-                    <p class="text-muted">Change the underlineâs opacity. Requires adding <code>.link-underline</code> to
+                    <p class="text-muted">Change the underline’s opacity. Requires adding <code>.link-underline</code> to
                         first set an <code>rgba()</code> color we use to then modify the alpha opacity.</p>
                     <div class="live-preview">
                         <p><a class="link-offset-2 text-decoration-underline link-underline link-underline-opacity-0"
@@ -324,8 +324,8 @@
                     </div>
                 </div><!-- end card header -->
                 <div class="card-body">
-                    <p class="text-muted">Change the underlineâs distance from your text. Offset is set in
-                        <code>em</code> units to automatically scale with the elementâs current <code>font-size</code>.
+                    <p class="text-muted">Change the underline’s distance from your text. Offset is set in
+                        <code>em</code> units to automatically scale with the element’s current <code>font-size</code>.
                     </p>
                     <div class="live-preview">
                         <p><a href="#">Default link</a></p>

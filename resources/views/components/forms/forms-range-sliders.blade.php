@@ -79,7 +79,7 @@
 
                             <div class="mt-4">
                                 <h5 class="fs-14">Steps</h5>
-                                <p class="text-muted">By default, range inputs âsnapâ to integer values. To change this,
+                                <p class="text-muted">By default, range inputs “snap” to integer values. To change this,
                                     you can specify a step value. In the example below, we double the number of steps by
                                     using <code>step="0.5"</code> attribute.</p>
 

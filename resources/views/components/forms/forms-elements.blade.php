@@ -357,7 +357,8 @@ Must be 8-20 characters long.
                 <div class="card-body">
                     <p class="text-muted">Use <code>form-control-lg</code> class to set large size input and Use
                         <code>form-control-sm</code> class to set small size input. No class is needed for default size
-                        input.</p>
+                        input.
+                    </p>
                     <div class="live-preview">
                         <div class="row align-items-center g-3">
                             <div class="col-lg-4">
@@ -583,7 +584,8 @@ Must be 8-20 characters long.
                             <h5 class="fs-15">Wrapping</h5>
                             <p class="text-muted">Input groups wrap by default via <code>flex-wrap: wrap</code> in order to
                                 accommodate custom form field validation within an input group. You may disable this with
-                                <code>flex-nowrap</code> class.</p>
+                                <code>flex-nowrap</code> class.
+                            </p>
                             <div class="input-group flex-nowrap">
                                 <span class="input-group-text" id="addon-wrapping">@</span>
                                 <input type="text" class="form-control" placeholder="Username" aria-label="Username"
@@ -650,7 +652,8 @@ Must be 8-20 characters long.
                 <div class="card-body">
                     <p class="text-muted">Use <code>input-group-sm</code> class to set a small size input group and
                         <code>input-group-lg</code> class to input-group class to set a large size input group respectively.
-                        no such class is required for a default size input group.</p>
+                        no such class is required for a default size input group.
+                    </p>
                     <div class="live-preview">
                         <div class="row align-items-center g-3">
                             <div class="col-lg-4">
@@ -780,9 +783,10 @@ Must be 8-20 characters long.
                 <div class="card-body">
                     <div class="live-preview">
                         <div>
-                            <p class="text-muted">Use any checkbox, radio, or button option within an input groupâs addon
+                            <p class="text-muted">Use any checkbox, radio, or button option within an input group’s addon
                                 instead of text. We recommend adding <code>mt-0</code> class to the
-                                <code>form-check-input</code> when thereâs no visible text next to the input.</p>
+                                <code>form-check-input</code> when there’s no visible text next to the input.
+                            </p>
                             <div class="row g-3">
                                 <div class="col-lg-6">
                                     <div class="input-group">
