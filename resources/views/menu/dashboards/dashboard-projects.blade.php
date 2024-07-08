@@ -873,7 +873,7 @@
                                         <div class="user-chat-content">
                                             <div class="ctext-wrap">
                                                 <div class="ctext-wrap-content">
-                                                    <p class="mb-0 ctext-content">Good morning ð</p>
+                                                    <p class="mb-0 ctext-content">Good morning 😊</p>
                                                 </div>
                                                 <div class="dropdown align-self-start message-box-drop">
                                                     <a class="dropdown-toggle" href="#" role="button"
@@ -977,7 +977,7 @@
                                                 <div class="ctext-wrap-content">
                                                     <p class="mb-0 ctext-content">Hey, I'm going to meet a friend of mine
                                                         at the department store. I have to buy some presents for my parents
-                                                        ð.</p>
+                                                        🎁.</p>
                                                 </div>
                                                 <div class="dropdown align-self-start message-box-drop">
                                                     <a class="dropdown-toggle" href="#" role="button"

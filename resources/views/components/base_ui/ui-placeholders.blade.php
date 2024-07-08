@@ -40,7 +40,7 @@
                 <div class="card-body">
 
                     <p class="text-muted">In the example below, we take a typical card component and recreate it with
-                        placeholders applied to create a âloading cardâ.</p>
+                        placeholders applied to create a “loading card”.</p>
 
                     <div class="live-preview">
                         <div class="row justify-content-center">

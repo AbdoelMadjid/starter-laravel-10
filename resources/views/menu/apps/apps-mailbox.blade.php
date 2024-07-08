@@ -536,7 +536,7 @@
                                     <div class="user-chat-content">
                                         <div class="ctext-wrap">
                                             <div class="ctext-wrap-content">
-                                                <p class="mb-0 ctext-content">Good morning ð</p>
+                                                <p class="mb-0 ctext-content">Good morning 😊</p>
                                             </div>
                                             <div class="dropdown align-self-start message-box-drop">
                                                 <a class="dropdown-toggle" href="#" role="button"

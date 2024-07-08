@@ -32,7 +32,7 @@
 
                             <div class="mt-5">
                                 <h4>Get notified when we launch</h4>
-                                <p class="text-muted">Don't worry we will not spam you ð</p>
+                                <p class="text-muted">Don't worry we will not spam you 😊</p>
                             </div>
 
                             <div class="input-group countdown-input-group mx-auto my-4">

@@ -45,23 +45,23 @@
                                     </th>
                                     <th scope="col" class="text-center">
                                         sm<br>
-                                        <span class="fw-normal">â¥576px</span>
+                                        <span class="fw-normal">≥576px</span>
                                     </th>
                                     <th scope="col" class="text-center">
                                         md<br>
-                                        <span class="fw-normal">â¥768px</span>
+                                        <span class="fw-normal">≥768px</span>
                                     </th>
                                     <th scope="col" class="text-center">
                                         lg<br>
-                                        <span class="fw-normal">â¥992px</span>
+                                        <span class="fw-normal">≥992px</span>
                                     </th>
                                     <th scope="col" class="text-center">
                                         xl<br>
-                                        <span class="fw-normal">â¥1200px</span>
+                                        <span class="fw-normal">≥1200px</span>
                                     </th>
                                     <th scope="col" class="text-center">
                                         xxl<br>
-                                        <span class="fw-normal">â¥1400px</span>
+                                        <span class="fw-normal">≥1400px</span>
                                     </th>
                                 </tr>
                             </thead>

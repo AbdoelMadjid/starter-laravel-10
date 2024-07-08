@@ -65,23 +65,23 @@
                             <div class="col-xl-6">
                                 <h6>Primary Alert</h6>
                                 <div class="alert alert-primary" role="alert">
-                                    <strong> Hi! </strong> A simple <b>Primary alert</b> âcheck it out!
+                                    <strong> Hi! </strong> A simple <b>Primary alert</b> —check it out!
                                 </div>
 
                                 <h6>Secondary Alert</h6>
                                 <div class="alert alert-secondary" role="alert">
-                                    <strong> How are you! </strong> A simple <b>secondary alert</b> âcheck it out!
+                                    <strong> How are you! </strong> A simple <b>secondary alert</b> —check it out!
                                 </div>
 
                                 <h6>Success Alert</h6>
                                 <div class="alert alert-success" role="alert">
-                                    <strong> Yey! Everything worked! </strong> A simple <b>success alert</b> âcheck it
+                                    <strong> Yey! Everything worked! </strong> A simple <b>success alert</b> —check it
                                     out!
                                 </div>
 
                                 <h6>Danger Alert</h6>
                                 <div class="alert alert-danger mb-xl-0" role="alert">
-                                    <strong> Something is very wrong! </strong> A simple <b>danger alert</b> âcheck it
+                                    <strong> Something is very wrong! </strong> A simple <b>danger alert</b> —check it
                                     out!
                                 </div>
                             </div>
@@ -89,23 +89,23 @@
                             <div class="col-xl-6">
                                 <h6>Warning Alert</h6>
                                 <div class="alert alert-warning" role="alert">
-                                    <strong> Uh oh, something went wrong </strong> A simple <b>warning alert</b> âcheck it
+                                    <strong> Uh oh, something went wrong </strong> A simple <b>warning alert</b> —check it
                                     out!
                                 </div>
 
                                 <h6>Info Alert</h6>
                                 <div class="alert alert-info" role="alert">
-                                    <strong>Don't forget' it !</strong> A simple <b>info alert</b> âcheck it out!
+                                    <strong>Don't forget' it !</strong> A simple <b>info alert</b> —check it out!
                                 </div>
 
                                 <h6>Light Alert</h6>
                                 <div class="alert alert-light" role="alert">
-                                    <strong>Mind Your Step!</strong> A simple <b>light alert</b> âcheck it out!
+                                    <strong>Mind Your Step!</strong> A simple <b>light alert</b> —check it out!
                                 </div>
 
                                 <h6>Dark Alert</h6>
                                 <div class="alert alert-dark mb-0" role="alert">
-                                    <strong>Did you know?</strong> A simple <b>dark alert</b> âcheck it out!
+                                    <strong>Did you know?</strong> A simple <b>dark alert</b> —check it out!
                                 </div>
                             </div>
                         </div>
@@ -180,46 +180,46 @@
                             <div class="col-xl-6">
                                 <h6>Primary Alert</h6>
                                 <div class="alert alert-primary border-0" role="alert">
-                                    <strong> Hi! </strong> A simple <b>Primary alert</b> âcheck it out!
+                                    <strong> Hi! </strong> A simple <b>Primary alert</b> —check it out!
                                 </div>
 
                                 <h6>Secondary Alert</h6>
                                 <div class="alert alert-secondary border-0" role="alert">
-                                    <strong> How are you! </strong> A simple <b>secondary alert</b> âcheck it out!
+                                    <strong> How are you! </strong> A simple <b>secondary alert</b> —check it out!
                                 </div>
 
                                 <h6>Success Alert</h6>
                                 <div class="alert alert-success border-0" role="alert">
-                                    <strong> Yey! Everything worked! </strong> A simple <b>success alert</b> âcheck it
+                                    <strong> Yey! Everything worked! </strong> A simple <b>success alert</b> —check it
                                     out!
                                 </div>
 
                                 <h6>Danger Alert</h6>
                                 <div class="alert alert-danger border-0 mb-xl-0" role="alert">
-                                    <strong> Something is very wrong! </strong> A simple danger alertâcheck it out!
+                                    <strong> Something is very wrong! </strong> A simple danger alert—check it out!
                                 </div>
                             </div>
 
                             <div class="col-xl-6">
                                 <h6>Warning Alert</h6>
                                 <div class="alert alert-warning border-0" role="alert">
-                                    <strong> Uh oh, something went wrong </strong> A simple <b>warning alert</b> âcheck it
+                                    <strong> Uh oh, something went wrong </strong> A simple <b>warning alert</b> —check it
                                     out!
                                 </div>
 
                                 <h6>Info Alert</h6>
                                 <div class="alert alert-info border-0" role="alert">
-                                    <strong>Don't forget' it !</strong> A simple <b>info alert</b> âcheck it out!
+                                    <strong>Don't forget' it !</strong> A simple <b>info alert</b> —check it out!
                                 </div>
 
                                 <h6>Light Alert</h6>
                                 <div class="alert alert-light border-0" role="alert">
-                                    <strong>Mind Your Step!</strong> A simple <b>light alert</b> âcheck it out!
+                                    <strong>Mind Your Step!</strong> A simple <b>light alert</b> —check it out!
                                 </div>
 
                                 <h6>Dark Alert</h6>
                                 <div class="alert alert-dark border-0 mb-0" role="alert">
-                                    <strong>Did you know?</strong> A simple <b>dark alert</b> âcheck it out!
+                                    <strong>Did you know?</strong> A simple <b>dark alert</b> —check it out!
                                 </div>
                             </div>
                         </div>
@@ -259,7 +259,7 @@
 </code>
 <code>&lt;!-- Light Alert --&gt;
 &lt;div class=&quot;alert border-0 alert-light&quot; role=&quot;alert&quot;&gt;
-&lt;strong&gt; Mind Your Step! &lt;/strong&gt; A simple &lt;b&gt;light alert&lt;/b&gt; &mdash;check it out!  
+&lt;strong&gt; Mind Your Step! &lt;/strong&gt; A simple &lt;b&gt;light alert&lt;/b&gt; &mdash;check it out!
 &lt;/div&gt;
 </code>
 <code>&lt;!-- Dark Alert --&gt;
@@ -296,7 +296,7 @@
                             <div class="col-xl-6">
                                 <h6>Primary Alert</h6>
                                 <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                                    <strong> Hi! </strong> A simple <b>Dismissible primary Alert </b> â check it out!
+                                    <strong> Hi! </strong> A simple <b>Dismissible primary Alert </b> — check it out!
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
                                 </div>
@@ -304,14 +304,14 @@
                                 <h6>Secondary Alert</h6>
                                 <div class="alert alert-secondary alert-dismissible fade show" role="alert">
                                     <strong> How are you! </strong> A simple <b>Dismissible secondary alert</b>
-                                    âcheck it out!
+                                    —check it out!
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
                                 </div>
 
                                 <h6>Success Alert</h6>
                                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                    <strong>Right Way !</strong> A simple <b>Dismissible success alert</b> âcheck
+                                    <strong>Right Way !</strong> A simple <b>Dismissible success alert</b> —check
                                     it out!
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
@@ -320,7 +320,7 @@
                                 <h6>Danger Alert</h6>
                                 <div class="alert alert-danger alert-dismissible fade show mb-xl-0" role="alert">
                                     <strong> Something is very wrong! </strong> A simple <b>Dismissible danger alert</b>
-                                    âcheck
+                                    —check
                                     it out!
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
@@ -330,7 +330,7 @@
                             <div class="col-xl-6">
                                 <h6>Warning Alert</h6>
                                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                    <strong>Welcome Back!</strong> A simple <b>Dismissible warning alert</b> âcheck it
+                                    <strong>Welcome Back!</strong> A simple <b>Dismissible warning alert</b> —check it
                                     out!
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
@@ -339,7 +339,7 @@
                                 <h6>Info Alert</h6>
                                 <div class="alert alert-info alert-dismissible fade show" role="alert">
                                     <strong>Don't forget' it !</strong> A simple <b>Dismissible info alert</b>
-                                    âcheck it out!
+                                    —check it out!
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
                                 </div>
@@ -347,7 +347,7 @@
                                 <h6>Light Alert</h6>
                                 <div class="alert alert-light alert-dismissible fade show" role="alert">
                                     <strong>Mind Your Step!</strong> A simple <b>Dismissible light alert</b>
-                                    âcheck it out!
+                                    —check it out!
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
                                 </div>
@@ -355,7 +355,7 @@
                                 <h6>Dark Alert</h6>
                                 <div class="alert alert-dark alert-dismissible fade show mb-0" role="alert">
                                     <strong>Did you know?</strong> A simple <b>Dismissible dark alert</b>
-                                    âcheck it out!
+                                    —check it out!
                                     <button type="button" class="btn-close" data-bs-dismiss="alert"
                                         aria-label="Close"></button>
                                 </div>

@@ -52,8 +52,8 @@
                                 <div class="toast fade show" role="alert" aria-live="assertive" data-bs-autohide="false"
                                     aria-atomic="true">
                                     <div class="toast-header">
-                                        <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
-                                            height="20">
+                                        <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
+                                            alt="..." height="20">
                                         <span class="fw-semibold me-auto">Velzon</span>
                                         <small>06 mins ago</small>
                                         <button type="button" class="btn-close" data-bs-dismiss="toast"
@@ -73,8 +73,8 @@
                                         <div class="toast fade show" role="alert" aria-live="assertive"
                                             data-bs-autohide="false" aria-atomic="true">
                                             <div class="toast-header">
-                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
-                                                    height="20">
+                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
+                                                    alt="..." height="20">
                                                 <span class="fw-semibold me-auto">Velzon</span>
                                                 <small>11 mins ago</small>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
@@ -100,8 +100,8 @@
                                         <div class="toast fade show" role="alert" aria-live="assertive"
                                             data-bs-autohide="false" aria-atomic="true">
                                             <div class="toast-header">
-                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
-                                                    height="20">
+                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
+                                                    alt="..." height="20">
                                                 <span class="fw-semibold me-auto">Velzon</span>
                                                 <small>Just now</small>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
@@ -115,8 +115,8 @@
                                         <div class="toast fade show" role="alert" aria-live="assertive"
                                             data-bs-autohide="false" aria-atomic="true">
                                             <div class="toast-header">
-                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
-                                                    height="20">
+                                                <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
+                                                    alt="..." height="20">
                                                 <span class="fw-semibold me-auto">Velzon</span>
                                                 <small>2 seconds ago</small>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
@@ -141,7 +141,7 @@
                                         <p class="text-muted">Place toasts with custom CSS as you need them.
                                             The top right
                                             is often used
-                                            for notifications, as is the top middle. If youâre only ever
+                                            for notifications, as is the top middle. If you’re only ever
                                             going to show one toast
                                             at a time, put
                                             the positioning styles right on the <code>.toast</code>.</p>
@@ -153,8 +153,8 @@
                                                 aria-atomic="true" data-bs-toggle="toast"
                                                 style="position: absolute; top: 16px; right: 16px;">
                                                 <div class="toast-header">
-                                                    <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
-                                                        alt="..." height="20">
+                                                    <img src="{{ asset('') }}assets/images/logo-sm.png"
+                                                        class="rounded me-2" alt="..." height="20">
                                                     <span class="fw-semibold me-auto">Velzon</span>
                                                     <small>06 mins ago</small>
                                                     <button type="button" class="btn-close" data-bs-dismiss="toast"
@@ -181,8 +181,8 @@
                                             <div class="toast fade show" role="alert" aria-live="assertive"
                                                 data-bs-autohide="false" aria-atomic="true">
                                                 <div class="toast-header">
-                                                    <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
-                                                        alt="..." height="20">
+                                                    <img src="{{ asset('') }}assets/images/logo-sm.png"
+                                                        class="rounded me-2" alt="..." height="20">
                                                     <span class="fw-semibold me-auto">Velzon</span>
                                                     <small>11 mins ago</small>
                                                     <button type="button" class="btn-close" data-bs-dismiss="toast"
@@ -338,8 +338,8 @@ Hello, world! This is a toast message.
                             <div class="toast-container position-absolute p-3" id="toastPlacement">
                                 <div class="toast">
                                     <div class="toast-header">
-                                        <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2" alt="..."
-                                            height="20">
+                                        <img src="{{ asset('') }}assets/images/logo-sm.png" class="rounded me-2"
+                                            alt="..." height="20">
                                         <strong class="me-auto">Velzon</strong>
                                         <small>11 mins ago</small>
                                         <button type="button" class="btn-close" data-bs-dismiss="toast"

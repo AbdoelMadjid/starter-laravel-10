@@ -89,7 +89,7 @@
                         a message saying delivery is not available which could be a problem with your shipping templates.
                         Too much or too little spacing, as in the example below, can make things unpleasant for the reader.
                         The goal is to make your text as comfortable to read as possible. On the note of consistency, color
-                        consistency is a MUST. If youâre not trying to create crazy contrast in your design, then a great
+                        consistency is a MUST. If you’re not trying to create crazy contrast in your design, then a great
                         idea would be for you to use a color palette throughout your entire design. It will subconsciously
                         interest viewers and also is very pleasing to look at. <a href="javascript:void(0);"
                             class="link-secondary text-decoration-underline">Example</a></p>
@@ -161,7 +161,7 @@ userIdx: {}
                                 <h5 class="fs-13">Donald Palmer <small class="text-muted">24 Dec 2021 - 05:20PM</small>
                                 </h5>
                                 <p class="text-muted">If you have further questions, please contact Customer Support from
-                                    the âAction Menuâ on your <a href="javascript:void(0);"
+                                    the “Action Menu” on your <a href="javascript:void(0);"
                                         class="text-decoration-underline">Online Order Support</a>.</p>
                                 <a href="javascript: void(0);" class="badge text-muted bg-light"><i
                                         class="mdi mdi-reply"></i> Reply</a>
@@ -176,8 +176,8 @@ userIdx: {}
                                 <h5 class="fs-13">Alexis Clarke <small class="text-muted">26 min ago</small></h5>
                                 <p class="text-muted">Your <a href="javascript:void(0)"
                                         class="text-decoration-underline">Online Order Support</a> provides you with the
-                                    most current status of your order. To help manage your order refer to the âAction
-                                    Menuâ to initiate return, contact Customer Support and more.</p>
+                                    most current status of your order. To help manage your order refer to the “Action
+                                    Menu” to initiate return, contact Customer Support and more.</p>
                                 <div class="row g-2 mb-3">
                                     <div class="col-lg-1 col-sm-2 col-6">
                                         <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""

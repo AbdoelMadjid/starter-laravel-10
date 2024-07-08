@@ -441,14 +441,14 @@
                                     aria-labelledby="v-pills-home-tab">
                                     <div class="d-flex mb-2">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <p class="mb-0">You always want to make sure that your fonts work well
                                                 together and try to limit the number of fonts you use to three or less.
                                                 Experiment and play around with the fonts that you already have in the
-                                                software youâre working with reputable font websites.</p>
+                                                software you’re working with reputable font websites.</p>
                                         </div>
                                     </div>
                                     <p class="mb-0">
@@ -461,8 +461,8 @@
                                     aria-labelledby="v-pills-profile-tab">
                                     <div class="d-flex mb-2">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <p class="mb-0"> I also decreased the transparency in the text so that the
@@ -481,14 +481,14 @@
                                     aria-labelledby="v-pills-messages-tab">
                                     <div class="d-flex mb-2">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-6.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-6.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <p class="mb-0">In this image, you can see that the line height has been
                                                 reduced significantly, and the size was brought up exponentially. Experiment
                                                 and play around with the fonts that you already have in the software
-                                                youâre working with reputable font websites.</p>
+                                                you’re working with reputable font websites.</p>
                                         </div>
                                     </div>
                                     <p class="mb-0">
@@ -501,18 +501,18 @@
                                     aria-labelledby="v-pills-settings-tab">
                                     <div class="d-flex mb-2">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <p class="mb-0">When designing, the goal is to draw someoneâs attention and
-                                                portray to them what youâre trying to say. You can make a big statement by
+                                            <p class="mb-0">When designing, the goal is to draw someone’s attention and
+                                                portray to them what you’re trying to say. You can make a big statement by
                                                 using little tricks, like this one. Use contrasting fonts. you can use a
                                                 bold sanserif font with a cursive.</p>
                                         </div>
                                     </div>
                                     <p class="mb-0">
-                                        If youâre using multiple elements, make sure that your principal object is larger
+                                        If you’re using multiple elements, make sure that your principal object is larger
                                         than the others, as the eye of your viewer will automatically be drawn to the larger
                                         of the two objects.
                                     </p>
@@ -558,8 +558,8 @@
                     <!-- Tab panes -->
                     <div class="tab-content text-muted">
                         <div class="tab-pane active" id="home2" role="tabpanel">
-                            <p class="flex-grow-1 mb-0"><img src="{{ asset('') }}assets/images/users/avatar-2.jpg" alt=""
-                                    class="avatar-lg rounded float-start me-3">
+                            <p class="flex-grow-1 mb-0"><img src="{{ asset('') }}assets/images/users/avatar-2.jpg"
+                                    alt="" class="avatar-lg rounded float-start me-3">
                                 Food truck fixie locavore, accusamus mcsweeney's marfa nulla
                                 single-origin coffee squid. Exercitation +1 labore velit, blog
                                 sartorial PBR leggings next level wes anderson artisan four loko
@@ -567,7 +567,7 @@
                                 vinyl cillum PBR. Homo nostrud organic, assumenda labore
                                 aesthetic magna delectus.commodo enim craft beer mlkshk aliquip jean shorts ullamco ad
                                 vinyl cillum PBR. Homo nostrud organic, assumenda labore
-                                aesthetic magna delectus. If youâre using multiple elements, make sure that your principal
+                                aesthetic magna delectus. If you’re using multiple elements, make sure that your principal
                                 object is larger than assumenda.
                             </p>
                         </div>
@@ -575,7 +575,7 @@
                             <p class="me-3 mb-0">
                                 <img src="{{ asset('') }}assets/images/users/avatar-3.jpg" alt=""
                                     class="avatar-lg rounded float-end ms-3"> Experiment and play around with the fonts
-                                that you already have in the software youâre working with reputable font websites. commodo
+                                that you already have in the software you’re working with reputable font websites. commodo
                                 enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud
                                 organic, assumenda labore aesthetic magna delectus.commodo enim craft beer mlkshk aliquip
                                 jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic
@@ -742,7 +742,7 @@
                         <div class="tab-pane active" id="arrow-overview" role="tabpanel">
                             <h6>Give your text a good structure</h6>
                             <p class="mb-0">
-                                Contrary to popular belief, you donât have to work endless nights and hours to create a <a
+                                Contrary to popular belief, you don’t have to work endless nights and hours to create a <a
                                     href="javascript:void(0);" class="text-decoration-underline"><b>Fantastic
                                         Design</b></a> by using complicated 3D elements. Flat design is your friend.
                                 Remember that. And the great thing about flat design is that it has become more and more
@@ -752,10 +752,10 @@
                         <div class="tab-pane" id="arrow-profile" role="tabpanel">
                             <h6>Use a color palette</h6>
                             <p class="mb-0">
-                                Opposites attract, and thatâs a fact. Itâs in our nature to be interested in the
-                                unusual, and thatâs why using contrasting colors in <a href="javascript:void(0);"
-                                    class="text-decoration-underline"><b>Graphic Design</b></a> is a must. Itâs
-                                eye-catching, it makes a statement, itâs impressive graphic design. Increase or decrease
+                                Opposites attract, and that’s a fact. It’s in our nature to be interested in the
+                                unusual, and that’s why using contrasting colors in <a href="javascript:void(0);"
+                                    class="text-decoration-underline"><b>Graphic Design</b></a> is a must. It’s
+                                eye-catching, it makes a statement, it’s impressive graphic design. Increase or decrease
                                 the letter spacing depending on the situation and try, try again until it looks right, and
                                 each letter has the perfect spot of its own.
                             </p>
@@ -766,7 +766,7 @@
                                 Consistency is the one thing that can take all of the different elements in your design, and
                                 tie them all together and make them work. In an awareness campaign, it is vital for people
                                 to begin put 2 and 2 together and begin to recognize your cause. Consistency piques
-                                peopleâs interest is that it has become more and more popular over the years, which is
+                                people’s interest is that it has become more and more popular over the years, which is
                                 excellent news to the beginner and advanced <a href="javascript:void(0);"
                                     class="text-decoration-underline"><b>Contact Designer</b></a>.
                             </p>
@@ -1038,7 +1038,7 @@
                         <div class="tab-pane active" id="bottomtabs-home" role="tabpanel">
                             <h5><i class="ri-home-3-line align-bottom me-1"></i> Home</h5>
                             <p class="mb-2">
-                                On the note of consistency, color consistency is a MUST. If youâre not trying to create
+                                On the note of consistency, color consistency is a MUST. If you’re not trying to create
                                 crazy contrast in your design, then a great idea would be for you to use a color palette
                                 throughout your entire design. It will subconsciously interest viewers and also is very
                                 pleasing to look at.
@@ -1053,7 +1053,7 @@
                             <p class="mb-2">
                                 Just like in the image where we talked about using multiple fonts, you can see that the
                                 background in this graphic design is blurred. Whenever you put text on top of an image,
-                                itâs important that your viewers can understand the text, and sometimes that means
+                                it’s important that your viewers can understand the text, and sometimes that means
                                 applying a gaussian readable.
                             </p>
                             <p class="mb-0">
@@ -1065,7 +1065,7 @@
                             <h5><i class="ri-mail-line align-bottom me-1"></i> Messages</h5>
                             <p class="mb-2">
                                 Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A
-                                wizardâs job is to vex chumps quickly in fog. Watch "Jeopardy! ", Alex Trebek's fun TV
+                                wizard’s job is to vex chumps quickly in fog. Watch "Jeopardy! ", Alex Trebek's fun TV
                                 quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods just flocked up to quiz
                                 and vex him.
                             </p>
@@ -1263,12 +1263,12 @@
                                     aria-labelledby="custom-v-pills-home-tab">
                                     <div class="d-flex mb-4">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <p class="mb-0">Experiment and play around with the fonts that you already
-                                                have in the software youâre working with reputable font websites. commodo
+                                                have in the software you’re working with reputable font websites. commodo
                                                 enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo
                                                 nostrud organic, assumenda labore aesthetic magna delectus.</p>
                                         </div>
@@ -1278,11 +1278,11 @@
                                             <p class="mb-0">Always want to make sure that your fonts work well together
                                                 and try to limit the number of fonts you use to three or less. Experiment
                                                 and play around with the fonts that you already have in the software
-                                                youâre working with reputable font websites.</p>
+                                                you’re working with reputable font websites.</p>
                                         </div>
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                     </div>
                                 </div>
@@ -1291,8 +1291,8 @@
                                     aria-labelledby="custom-v-pills-profile-tab">
                                     <div class="d-flex mb-4">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-3.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <p class="mb-0">In some designs, you might adjust your tracking to create a
@@ -1310,8 +1310,8 @@
                                                 different professional graphic designers.</p>
                                         </div>
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-6.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-6.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                     </div>
                                 </div>
@@ -1320,8 +1320,8 @@
                                     aria-labelledby="custom-v-pills-messages-tab">
                                     <div class="d-flex mb-4">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-7.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <p class="mb-0">Trust fund seitan letterpress, keytar raw denim keffiyeh etsy
@@ -1339,8 +1339,8 @@
                                                 Cosby sweater eu banh mi, qui irure terry richardson ex squid.</p>
                                         </div>
                                         <div class="flex-shrink-0">
-                                            <img src="{{ asset('') }}assets/images/small/img-8.jpg" alt="" width="150"
-                                                class="rounded">
+                                            <img src="{{ asset('') }}assets/images/small/img-8.jpg" alt=""
+                                                width="150" class="rounded">
                                         </div>
                                     </div>
                                 </div>
@@ -1733,7 +1733,7 @@
                         <div class="tab-pane active" id="nav-border-justified-home" role="tabpanel">
                             <h6>Give your text a good structure</h6>
                             <p class="mb-0">
-                                Contrary to popular belief, you donât have to work endless nights and hours to create a <a
+                                Contrary to popular belief, you don’t have to work endless nights and hours to create a <a
                                     href="javascript:void(0);" class="text-decoration-underline"><b>Fantastic
                                         Design</b></a> by using complicated 3D elements. Flat design is your friend.
                                 Remember that. And the great thing about flat design is that it has become more and more
@@ -1743,10 +1743,10 @@
                         <div class="tab-pane" id="nav-border-justified-profile" role="tabpanel">
                             <h6>Use a color palette</h6>
                             <p class="mb-0">
-                                Opposites attract, and thatâs a fact. Itâs in our nature to be interested in the
-                                unusual, and thatâs why using contrasting colors in <a href="javascript:void(0);"
-                                    class="text-decoration-underline"><b>Graphic Design</b></a> is a must. Itâs
-                                eye-catching, it makes a statement, itâs impressive graphic design. Increase or decrease
+                                Opposites attract, and that’s a fact. It’s in our nature to be interested in the
+                                unusual, and that’s why using contrasting colors in <a href="javascript:void(0);"
+                                    class="text-decoration-underline"><b>Graphic Design</b></a> is a must. It’s
+                                eye-catching, it makes a statement, it’s impressive graphic design. Increase or decrease
                                 the letter spacing depending on the situation and try, try again until it looks right, and
                                 each letter has the perfect spot of its own.
                             </p>
@@ -1757,7 +1757,7 @@
                                 Consistency is the one thing that can take all of the different elements in your design, and
                                 tie them all together and make them work. In an awareness campaign, it is vital for people
                                 to begin put 2 and 2 together and begin to recognize your cause. Consistency piques
-                                peopleâs interest is that it has become more and more popular over the years, which is
+                                people’s interest is that it has become more and more popular over the years, which is
                                 excellent news to the beginner and advanced <a href="javascript:void(0);"
                                     class="text-decoration-underline"><b>Contact Designer</b></a>.
                             </p>
@@ -2080,7 +2080,7 @@
                             </div>
                             <div class="d-flex">
                                 <div class="flex-grow-1 me-3">
-                                    Experiment and play around with the fonts that you already have in the software youâre
+                                    Experiment and play around with the fonts that you already have in the software you’re
                                     working with reputable font websites. commodo enim craft beer mlkshk aliquip jean shorts
                                     ullamco ad vinyl cillum PBR. Homo nostrud organic.
                                 </div>
@@ -2147,15 +2147,15 @@
                         <div class="tab-pane active" id="nav-light-home" role="tabpanel">
                             <div class="d-flex mb-1">
                                 <div class="flex-grow-1 me-3">
-                                    Experiment and play around with the fonts that you already have in the software youâre
+                                    Experiment and play around with the fonts that you already have in the software you’re
                                     working with reputable font websites. commodo enim craft beer mlkshk aliquip jean shorts
                                     ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna
-                                    delectus. pposites attract, and thatâs a fact. Itâs in our nature to be interested
-                                    in the unusual, and thatâs why using contrasting.
+                                    delectus. pposites attract, and that’s a fact. It’s in our nature to be interested
+                                    in the unusual, and that’s why using contrasting.
                                 </div>
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt="" width="150"
-                                        class="rounded">
+                                    <img src="{{ asset('') }}assets/images/small/img-4.jpg" alt=""
+                                        width="150" class="rounded">
                                 </div>
                             </div>
                             <p class="mb-0"> Food truck fixie locavore, accusamus mcsweeney's marfa nulla
@@ -2169,16 +2169,16 @@
                                 <div class="flex-grow-1 me-3">
                                     Just like in the image where we talked about using multiple fonts, you can see that the
                                     background in this graphic design is blurred. Whenever you put text on top of an image,
-                                    itâs important that your viewers can understand the text, and sometimes that means
+                                    it’s important that your viewers can understand the text, and sometimes that means
                                     applying a gaussian readable Any bypasser will stop to see what you have to see, even if
                                     your design has nothing to do with them.
                                 </div>
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt="" width="150"
-                                        class="rounded">
+                                    <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
+                                        width="150" class="rounded">
                                 </div>
                             </div>
-                            <p class="mb-0">It makes a statement, itâs impressive graphic design. Increase or decrease
+                            <p class="mb-0">It makes a statement, it’s impressive graphic design. Increase or decrease
                                 the letter spacing depending on the situation and try, try again until it looks right, and
                                 each letter has the perfect spot of its own. commodo enim craft beer mlkshk aliquip jean
                                 shorts ullamco.</p>
@@ -2189,12 +2189,12 @@
                                     Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold
                                     out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack
                                     portland seitan DIY, art party locavore wolf cliche high life echo park Austin On the
-                                    note of consistency, color consistency is a MUST. If youâre not trying to create crazy
+                                    note of consistency, color consistency is a MUST. If you’re not trying to create crazy
                                     contrast in your design.
                                 </div>
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt="" width="150"
-                                        class="rounded">
+                                    <img src="{{ asset('') }}assets/images/small/img-5.jpg" alt=""
+                                        width="150" class="rounded">
                                 </div>
                             </div>
                             <p class="mb-0">Big July earthquakes confound zany experimental vow. My girl wove six dozen

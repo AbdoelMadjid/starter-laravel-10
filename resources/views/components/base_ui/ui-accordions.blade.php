@@ -51,7 +51,7 @@
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                     data-bs-parent="#default-accordion-example">
                                     <div class="accordion-body">
-                                        Although you probably wonât get into any legal trouble if you do it just once, why
+                                        Although you probably won’t get into any legal trouble if you do it just once, why
                                         risk it? If you made your subscribers a promise, you should honor that. If not, you
                                         run the risk of a drastic increase in opt outs, which will only hurt you in the long
                                         run.
@@ -105,7 +105,7 @@ How to create a group booking ?
 &lt;/h2&gt;
 &lt;div id=&quot;collapseOne&quot; class=&quot;accordion-collapse collapse show&quot; aria-labelledby=&quot;headingOne&quot; data-bs-parent=&quot;#default-accordion-example&quot;&gt;
 &lt;div class=&quot;accordion-body&quot;&gt;
-Although you probably wonât get into any legal trouble if you do it just once, why risk it? If you made your subscribers a promise, you should honor that. If not, you run the risk of a drastic increase in opt outs, which will only hurt you in the long run.
+Although you probably won’t get into any legal trouble if you do it just once, why risk it? If you made your subscribers a promise, you should honor that. If not, you run the risk of a drastic increase in opt outs, which will only hurt you in the long run.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -546,7 +546,7 @@ Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in
                                 <div id="accor_plusExamplecollapse2" class="accordion-collapse collapse"
                                     aria-labelledby="accordionwithplusExample2" data-bs-parent="#accordionWithplusicon">
                                     <div class="accordion-body">
-                                        It makes a statement, itâs impressive graphic design. Increase or decrease the
+                                        It makes a statement, it’s impressive graphic design. Increase or decrease the
                                         letter spacing depending on the situation and try, try again until it looks right,
                                         and each letter has the perfect spot of its own. commodo enim craft beer mlkshk
                                         aliquip jean shorts ullamco.
@@ -567,7 +567,7 @@ Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in
                                         Spacing depending on the situation and try, try again until it looks right, and
                                         each. next level wes anderson artisan four loko farm-to-table craft beer twee.
                                         commodo enim craft beer mlkshk aliquip jean shorts ullamco. omo nostrud organic,
-                                        assumenda labore aesthetic magna delectus. pposites attract, and thatâs a fact.
+                                        assumenda labore aesthetic magna delectus. pposites attract, and that’s a fact.
                                     </div>
                                 </div>
                             </div>
@@ -597,7 +597,7 @@ What is Digital Marketing?
 &lt;/h2&gt;
 &lt;div id=&quot;accor_plusExamplecollapse2&quot; class=&quot;accordion-collapse collapse&quot; aria-labelledby=&quot;accordionwithplusExample2&quot; data-bs-parent=&quot;#accordionWithplusicon&quot;&gt;
 &lt;div class=&quot;accordion-body&quot;&gt;
-It makes a statement, itâs impressive graphic design. Increase or decrease the letter spacing depending on the situation and try, try again until it looks right, and each letter has the perfect spot of its own. commodo enim craft beer mlkshk aliquip jean shorts ullamco.
+It makes a statement, it’s impressive graphic design. Increase or decrease the letter spacing depending on the situation and try, try again until it looks right, and each letter has the perfect spot of its own. commodo enim craft beer mlkshk aliquip jean shorts ullamco.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -609,7 +609,7 @@ Where does it come from ?
 &lt;/h2&gt;
 &lt;div id=&quot;accor_plusExamplecollapse3&quot; class=&quot;accordion-collapse collapse&quot; aria-labelledby=&quot;accordionwithplusExample3&quot; data-bs-parent=&quot;#accordionWithplusicon&quot;&gt;
 &lt;div class=&quot;accordion-body&quot;&gt;
-Spacing depending on the situation and try, try again until it looks right, and each. next level wes anderson artisan four loko farm-to-table craft beer twee. commodo enim craft beer mlkshk aliquip jean shorts ullamco. omo nostrud organic, assumenda labore aesthetic magna delectus. pposites attract, and thatâs a fact.
+Spacing depending on the situation and try, try again until it looks right, and each. next level wes anderson artisan four loko farm-to-table craft beer twee. commodo enim craft beer mlkshk aliquip jean shorts ullamco. omo nostrud organic, assumenda labore aesthetic magna delectus. pposites attract, and that’s a fact.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1218,7 +1218,7 @@ When you run out of messages, you will not be able to send any outbound campaign
                                                         You always want to make sure that your fonts work well together and
                                                         try to limit the number of fonts you use to three or less.
                                                         Experiment and play around with the fonts that you already have in
-                                                        the software youâre working with reputable font websites.
+                                                        the software you’re working with reputable font websites.
                                                     </div>
                                                 </div>
                                             </div>
@@ -1264,7 +1264,7 @@ When you run out of messages, you will not be able to send any outbound campaign
                                                         elements in your design, and tie them all together and make them
                                                         work. In an awareness campaign, it is vital for people to begin put
                                                         2 and 2 together and begin to recognize your cause. Consistency
-                                                        piques peopleâs interest.
+                                                        piques people’s interest.
                                                     </div>
                                                 </div>
                                             </div>
@@ -1415,8 +1415,8 @@ Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in
                                 <div class="collapse show" id="collapseExample">
                                     <div class="card mb-0">
                                         <div class="card-body">
-                                            When designing, the goal is to draw someoneâs attention and portray to them
-                                            what youâre trying to say. You can make a big statement by using little
+                                            When designing, the goal is to draw someone’s attention and portray to them
+                                            what you’re trying to say. You can make a big statement by using little
                                             tricks, like this one. Use contrasting fonts. you can use a bold sanserif font
                                             with a cursive.
                                         </div>
@@ -1438,7 +1438,7 @@ Button with data-bs-target
 &lt;div class=&quot;collapse show&quot; id=&quot;collapseExample&quot;&gt;
 &lt;div class=&quot;card mb-0&quot;&gt;
 &lt;div class=&quot;card-body&quot;&gt;
-When designing, the goal is to draw someoneâs attention and portray to them what youâre trying to say. You can make a big statement by using little tricks, like this one. Use contrasting fonts. you can use a bold sanserif font with a cursive.
+When designing, the goal is to draw someone’s attention and portray to them what you’re trying to say. You can make a big statement by using little tricks, like this one. Use contrasting fonts. you can use a bold sanserif font with a cursive.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</code></pre>
@@ -1463,7 +1463,8 @@ When designing, the goal is to draw someoneâs attention and portray to them
                         <div class="card-body">
                             <p class="text-muted">Use the <code>collapse-horizontal</code> class to transition the
                                 <code>width</code> instead of <code>height</code> and set a <code>width</code> on the
-                                immediate child element for horizontal collapse.</p>
+                                immediate child element for horizontal collapse.
+                            </p>
                             <div class="live-preview">
                                 <div class="mb-3">
                                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse"

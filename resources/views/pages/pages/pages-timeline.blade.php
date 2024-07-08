@@ -48,7 +48,7 @@
                                 <div class="flex-grow-1 ms-3">
                                     <h5 class="fs-15">@Erica245 <small class="text-muted fs-13 fw-normal">- 10 min
                                             Ago</small></h5>
-                                    <p class="text-muted mb-2">Wish someone a sincere âgood luck in your new jobâ with
+                                    <p class="text-muted mb-2">Wish someone a sincere ‘good luck in your new job’ with
                                         these sweet messages. Make sure you pick out a good luck new job card to go with the
                                         words, and pop a beautiful bunch of flowers from our gift range in your basket, to
                                         make them feel super special.</p>
@@ -240,7 +240,7 @@
                                                 class="avatar-sm rounded" />
                                             <div class="flex-grow-1 ms-3">
                                                 <h5 class="mb-1">Frank hook joined with our company</h5>
-                                                <p class="text-muted mb-0">It makes a statement, itâs impressive graphic
+                                                <p class="text-muted mb-0">It makes a statement, it’s impressive graphic
                                                     design. Increase or decrease the letter spacing depending on the
                                                     situation and try, try again until it looks right, and each letter has
                                                     the perfect spot of its own. </p>
