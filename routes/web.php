@@ -1,10 +1,7 @@
 <?php
 
-use App\Http\Controllers\Auth\ForgotPasswordController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Auth\LogoutController;
-use App\Http\Controllers\Auth\ResetPasswordController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,11 +15,9 @@ use App\Http\Controllers\Auth\ResetPasswordController;
 */
 
 // Dashboard
-Route::get('/', [LoginController::class, 'index'])->name('login')->middleware('guest');
-Route::post('/', [LoginController::class, 'authenticate'])->name('signin')->middleware('guest');
-Route::get('/logout', [LogoutController::class, 'logout'])->name('logout')->middleware('auth');
+Route::get('/', [AuthController::class, 'index'])->name('login');
 
-Route::view('/dashboard', 'dashboard')->middleware('auth');
+Route::view('/dashboard', 'dashboard');
 Route::view('/dashboard-analytics', 'menu.dashboards.dashboard-analytics');
 Route::view('/dashboard-crm', 'menu.dashboards.dashboard-crm');
 Route::view('/dashboard-ecommerce', 'menu.dashboards.dashboard-ecommerce');
