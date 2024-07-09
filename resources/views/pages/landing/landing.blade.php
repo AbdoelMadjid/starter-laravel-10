@@ -37,7 +37,7 @@
     <div class="layout-wrapper landing">
         <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
             <div class="container">
-                <a class="navbar-brand" href="index">
+                <a class="navbar-brand" href="">
                     <img src="{{ asset('') }}assets/images/logo-dark.png" class="card-logo card-logo-dark"
                         alt="logo dark" height="17">
                     <img src="{{ asset('') }}assets/images/logo-light.png" class="card-logo card-logo-light"

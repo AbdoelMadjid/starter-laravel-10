@@ -31,8 +31,8 @@
 <body>
 
     <!-- auth-page wrapper -->
-    <div class="auth-page-wrapper py-5 d-flex justify-content-center align-items-center min-vh-100">
-
+    <div class="auth-page-wrapper auth-bg-cover py-5 d-flex justify-content-center align-items-center min-vh-100">
+        <div class="bg-overlay"></div>
         <!-- auth-page content -->
         <div class="auth-page-content overflow-hidden p-0">
             <div class="container-fluid">
@@ -44,10 +44,10 @@
                             <h1 class="title text-muted">500</h1>
                         </div>
                         <div>
-                            <h4>Internal Server Error!</h4>
+                            <h4 class="text-white-50">Internal Server Error!</h4>
                             <p class="text-muted w-75 mx-auto">Server Error 500. We're not exactly sure what happened,
                                 but our servers say something is wrong.</p>
-                            <a href="Dashboard" class="btn btn-success"><i class="mdi mdi-home me-1"></i>Back to
+                            <a href="dashboard" class="btn btn-success"><i class="mdi mdi-home me-1"></i>Back to
                                 home</a>
                         </div>
                     </div><!-- end col-->

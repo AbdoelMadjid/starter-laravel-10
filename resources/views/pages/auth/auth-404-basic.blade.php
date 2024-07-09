@@ -51,7 +51,7 @@
                         <div class="text-center pt-4">
                             <div class="">
                                 <img src="{{ asset('') }}assets/images/error.svg" alt=""
-                                    class="error-basic-img move-animation">
+                                    class="error-basic-img move-animation" height="350">
                             </div>
                             <div class="mt-n4">
                                 <h1 class="display-1 fw-medium">404</h1>
