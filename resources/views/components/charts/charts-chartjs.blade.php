@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Chartjs')
 @push('vendor-script')
     <!-- Chart JS -->
     <script src="{{ asset('') }}assets/libs/chart.js/chart.umd.js"></script>
@@ -12,21 +12,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Chartjs</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Charts</a></li>
-                        <li class="breadcrumb-item active">Chartjs</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Charts'])
     <!-- end page title -->
 
     <div class="row">

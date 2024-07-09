@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Select')
 @push('vendor-script')
     <!-- prismjs plugin -->
     <script src="{{ asset('') }}assets/libs/prismjs/prism.js"></script>
@@ -7,21 +7,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Form Select</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Forms</a></li>
-                        <li class="breadcrumb-item active">Form Select</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Forms'])
     <!-- end page title -->
 
     <div class="row">
@@ -175,7 +161,8 @@
                 <div class="card-body">
                     <p class="text-muted">Use <code>form-select-sm</code> class to set small select size and
                         <code>form-select-lg</code> class to form-select class to set large select size. No such class is
-                        required for default select size.</p>
+                        required for default select size.
+                    </p>
                     <div class="live-preview">
                         <div class="row align-items-center g-3">
                             <div class="col-lg-4">

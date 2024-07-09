@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Scatter')
 @push('vendor-script')
     <!-- apexcharts -->
     <script src="{{ asset('') }}assets/libs/apexcharts/apexcharts.min.js"></script>
@@ -12,21 +12,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Scatter Charts</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Apexcharts</a></li>
-                        <li class="breadcrumb-item active">Scatter Charts</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Charts', 'level_2' => 'ApexCharts'])
     <!-- end page title -->
 
     <div class="row">
@@ -37,8 +23,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <div id="basic_scatter" data-colors='["--vz-primary", "--vz-success", "--vz-warning"]'
-                        class="apex-charts" dir="ltr"></div>
+                    <div id="basic_scatter" data-colors='["--vz-primary", "--vz-success", "--vz-warning"]' class="apex-charts"
+                        dir="ltr"></div>
                 </div><!-- end card-body -->
             </div><!-- end card -->
         </div>
