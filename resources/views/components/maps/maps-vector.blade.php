@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Vector')
 @push('vendor-style')
     <!-- plugin css -->
     <link href="{{ asset('') }}assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
@@ -25,21 +25,7 @@
 
 @section('content')
     <!-- start page title -->
-    <div class="row">
-        <div class="col-12">
-            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <h4 class="mb-sm-0">Vector</h4>
-
-                <div class="page-title-right">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Maps</a></li>
-                        <li class="breadcrumb-item active">Vector</li>
-                    </ol>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    @include('layouts.breadcrumb', ['level_1' => 'Maps'])
     <!-- end page title -->
 
     <div class="row">
