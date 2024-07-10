@@ -8,6 +8,6 @@ class AuthController extends Controller
 {
     public function index()
     {
-        return view('pages.auth.auth-signin-basic');
+        return view('template.auth.auth-signin-basic');
     }
 }
